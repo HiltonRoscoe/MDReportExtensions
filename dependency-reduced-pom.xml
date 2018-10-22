@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.hiltonroscoe.mdreportext</groupId>
+  <artifactId>mdreportext</artifactId>
+  <name>mdreportext</name>
+  <version>1.0-SNAPSHOT</version>
+  <url>http://maven.apache.org</url>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <transformers>
+                <transformer>
+                  <mainClass>Package.MainClass</mainClass>
+                </transformer>
+              </transformers>
+              <minimizeJar>true</minimizeJar>
+              <filters>
+                <filter>
+                  <artifact>edu.stanford.nlp:stanford-corenlp</artifact>
+                  <includes>
+                    <include>**</include>
+                  </includes>
+                </filter>
+                <filter>
+                  <artifact>edu.stanford.nlp:stanford-corenlp:models</artifact>
+                  <includes>
+                    <include>edu/stanford/nlp/models/pos-tagger/**</include>
+                  </includes>
+                </filter>
+              </filters>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>com.kotcrab.remark</groupId>
+      <artifactId>remark</artifactId>
+      <version>1.0.0</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.nomagic</groupId>
+      <artifactId>magicdraw</artifactId>
+      <version>18.5</version>
+      <scope>system</scope>
+      <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\magicreport.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>org.apache</groupId>
+      <artifactId>beatools</artifactId>
+      <version>1</version>
+      <scope>system</scope>
+      <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\commons-beanutils-1.7.0.jar</systemPath>
+    </dependency>
+  </dependencies>
+</project>
+
