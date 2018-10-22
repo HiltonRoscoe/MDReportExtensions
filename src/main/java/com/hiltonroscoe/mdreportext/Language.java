@@ -20,44 +20,45 @@ public class Language extends Tool {
     }
 
     public static void main(String[] args) {
-        System.out.println(findClassUsage(
-                "the ballot, being unreadable by a scanner.",
-                "ballot",true));
+        System.out.println(findClassUsage("the ballot, being unreadable by a scanner.", "ballot", true));
     }
 
-    public static String findClassUsage(String documentation, String className, boolean stem) {
+    public static String[] findClassUsage(String documentation, String className, boolean stem) {
         // Create a document. No computation is done yet.
         Document doc = new Document(documentation);
-        String[] classLemmas;
+        // a list of strings in the class' name
+        List<String> matchedPhrases = new ArrayList<String>();
+        String[] classStrings;
         if (!stem)
-            classLemmas = new Document(className).sentence(0).lemmas().toArray(new String[0]);
+            classStrings = new Document(className).sentence(0).lemmas().toArray(new String[0]);
         else
-            classLemmas = new Document(className).sentence(0).words().toArray(new String[0]);
-        // foreach(classLemmas in classes) {
-        for (Sentence sent : doc.sentences()) { // Will iterate over two sentences
-            // get all lemmas
-            String[] docLemmas;
+            classStrings = new Document(className).sentence(0).words().toArray(new String[0]);
+        // iterate over sentences
+        for (Sentence sent : doc.sentences()) {
+            String[] docStrings;
             if (!stem)
-                docLemmas = sent.lemmas().toArray(new String[0]);
+                // get all lemmas
+                docStrings = sent.lemmas().toArray(new String[0]);
             else
-                docLemmas = sent.words().toArray(new String[0]);
-            for (int l = 0; l < docLemmas.length; l++) {
-                List<String> wordToReturn = new ArrayList<String>();
-                for (int m = 0; m < classLemmas.length; m++) {
-                    // compare lemmas at current position
+                docStrings = sent.words().toArray(new String[0]);
+            for (int l = 0; l < docStrings.length; l++) {
+                List<String> matchingPhrase = new ArrayList<String>();
+                // try to match class name at current position (l) of document
+                for (int m = 0; m < classStrings.length; m++) {
                     boolean matches;
                     if (stem) {
                         com.hiltonroscoe.nlp.Stemmer s = new com.hiltonroscoe.nlp.Stemmer();
-                        matches = s.stem(classLemmas[m]).equals(s.stem(docLemmas[l + m]));
+                        matches = s.stem(classStrings[m]).equals(s.stem(docStrings[l + m]));
                     } else {
-                        matches = (classLemmas[m]).equals(docLemmas[l + m]);
+                        // compare lemmas at current position
+                        matches = (classStrings[m]).equals(docStrings[l + m]);
                     }
                     if (matches) {
-                        wordToReturn.add(sent.word(l + m));
-                        if (m == classLemmas.length - 1) {
+                        matchingPhrase.add(sent.word(l + m));
+                        if (m == classStrings.length - 1) {
                             // consumed!
-                            // return the matched string, can use existing regex
-                            return String.join(" ", wordToReturn);
+                            matchedPhrases.add(String.join(" ", matchingPhrase));
+                            // if we cared about speed, we would fast forward
                         }
                         // continue to scan
                     } else {
@@ -67,6 +68,6 @@ public class Language extends Tool {
                 }
             }
         }
-        return "NO MATCH";
+        return matchedPhrases.toArray(new String[0]);
     }
 }
