@@ -27,11 +27,20 @@ public class Language extends Tool {
 
     public static String[] getLemmas(String s) {
         // still using simple API
-        Document doc = new Document(s);
-        return doc.sentence(0).lemmas().toArray(new String[0]);
+        // Add an article to the sentence. This fixes an issue with POS tags.
+        Document doc = new Document("a " + s);
+        // will break if periods are in the term (they shouldn't)
+        List<String> rawLemmas = doc.sentence(0).lemmas();
+        // remove the "a" that we added to force correct POS tagging
+        List<String> lemmas = rawLemmas.subList(1, rawLemmas.size());
+        return lemmas.toArray(new String[0]);
     }
 
     public static void main(String[] args) {
+        String[] lemmas = getLemmas("voting system");
+        for(String l : lemmas){
+            System.out.println(l);
+        }
         System.out.println(findClassUsage("the ballot, being unreadable by a scanner.", "ballot", true));
     }
 
