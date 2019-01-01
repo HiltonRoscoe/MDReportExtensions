@@ -62,14 +62,15 @@ public class NLPLanguage extends Tool {
 
   public static void main(String[] args) {
     String text = "Programmed device that creates credentials necessary to begin a voting session using a specific ballot style. Oh how I do love ballot style.";
-    System.out.println(runNLP(text,"ballot style"));
+    System.out.println(runNLP(text, "ballot style"));
   }
-/**
- * 
- * @param text The corpus to annotate
- * @param currentTerm The current term under annotation
- * @return
- */
+
+  /**
+   * 
+   * @param text        The corpus to annotate
+   * @param currentTerm The current term under annotation
+   * @return
+   */
   public static String runNLP(String text, String currentTerm) {
     StanfordCoreNLP pipeline = getPipeline();
     // create a document object
@@ -91,51 +92,60 @@ public class NLPLanguage extends Tool {
     for (CoreEntityMention termMention : termMentions) {
       // System.out.println("[NER] " + termMention);
       // we are assuming the list is in reading order!
-      boolean disallowSelfReference = true;
-      if(disallowSelfReference){
-        // don't link to the term we are annotating!
-        if(currentTerm.equals(termMention.text())){
-          continue;
+      // only include terms we tagged (i.e. ignore statistical models)
+      if (termMention.entityType() == "GLOSSARY_TERM") {
+
+        boolean disallowSelfReference = true;
+        if (disallowSelfReference) {
+          // don't link to the term we are annotating!
+          if (currentTerm.equals(termMention.text())) {
+            continue;
+          }
         }
-      }
-      
-      if (firstMentions) {
-        // check if we don't already have a mention.
-        if (permittedMentions.stream().anyMatch(p -> p.text().equals(termMention.text()))) {
-          // System.out.println("[NER] already matched " + termMention.text());
-        } else {
-          permittedMentions.add(termMention);
+
+        if (firstMentions) {
+          // check if we don't already have a mention.
+          if (permittedMentions.stream().anyMatch(p -> p.text().equals(termMention.text()))) {
+            // System.out.println("[NER] already matched " + termMention.text());
+          } else {
+            permittedMentions.add(termMention);
+          }
         }
       }
     }
-
     // DEBUG SECTION
     // for (CoreLabel token : document.tokens()) {
-    //   System.out.println(token.word() + "\t" + token.beginPosition() + "\t" + token.endPosition());
+    // System.out.println(token.word() + "\t" + token.beginPosition() + "\t" +
+    // token.endPosition());
     // }
     // System.out.println("permitted mentions " + permittedMentions);
     Iterator<CoreEntityMention> permittedMentionsIt = permittedMentions.iterator();
-    CoreEntityMention mentionMatchTarget = permittedMentionsIt.next();
+    CoreEntityMention mentionMatchTarget = null;
+    if (permittedMentionsIt.hasNext()) {
+      mentionMatchTarget = permittedMentionsIt.next();
+    }
     // create a stream we can read through
     StringWriter definitionOutputStream = new StringWriter();
     try (StringReader definitionInputStream = new StringReader(document.text())) {
       int char2;
       int pos = 0;
       while ((char2 = definitionInputStream.read()) != -1) {
-        try {
-          if (pos == mentionMatchTarget.charOffsets().first()) {
-            // write bracket
-            definitionOutputStream.write("[");
-          } else if (pos == mentionMatchTarget.charOffsets().second()) {
-            // write bracket
-            definitionOutputStream.write("]");
-            if (mentionMatchTarget.coreMap().containsKey(NormalizedNamedEntityTagAnnotation.class)) {
-              definitionOutputStream.write(
-                  "(#" + mentionMatchTarget.coreMap().get(NormalizedNamedEntityTagAnnotation.class).toString().replaceAll("\\s+","") + ")");
+        if (mentionMatchTarget != null) {
+          try {
+            if (pos == mentionMatchTarget.charOffsets().first()) {
+              // write bracket
+              definitionOutputStream.write("[");
+            } else if (pos == mentionMatchTarget.charOffsets().second()) {
+              // write bracket
+              definitionOutputStream.write("]");
+              if (mentionMatchTarget.coreMap().containsKey(NormalizedNamedEntityTagAnnotation.class)) {
+                definitionOutputStream.write("(#" + mentionMatchTarget.coreMap()
+                    .get(NormalizedNamedEntityTagAnnotation.class).toString().replaceAll("\\s+", "") + ")");
+              }
+              mentionMatchTarget = permittedMentionsIt.next();
             }
-            mentionMatchTarget = permittedMentionsIt.next();
+          } catch (NoSuchElementException e) {
           }
-        } catch (NoSuchElementException e) {
         }
         definitionOutputStream.write(char2);
         pos++;
