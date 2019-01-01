@@ -1,20 +1,18 @@
 package com.hiltonroscoe.mdreportext;
 
-import edu.stanford.nlp.ling.Word;
-import edu.stanford.nlp.process.Morphology;
-import edu.stanford.nlp.util.CoreMap;
-
 import java.util.ArrayList;
 import java.util.List;
 
 import com.hiltonroscoe.nlp.Stemmer;
 import com.nomagic.magicreport.engine.Tool;
 
-import org.apache.xalan.templates.ElemSort;
-
-import edu.stanford.nlp.simple.*;
+import edu.stanford.nlp.process.Morphology;
+import edu.stanford.nlp.simple.Document;
+import edu.stanford.nlp.simple.Sentence;
 
 public class Language extends Tool {
+    private static final long serialVersionUID = 1L;
+
     public static String stem(String s) {
         Stemmer l = new Stemmer();
         return l.stem(s);

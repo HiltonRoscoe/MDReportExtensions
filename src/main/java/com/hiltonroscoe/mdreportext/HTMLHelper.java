@@ -1,11 +1,12 @@
 package com.hiltonroscoe.mdreportext;
 
-import com.overzealous.remark.Remark;
-import com.overzealous.remark.Options;
 import com.nomagic.magicreport.engine.Tool;
-import java.io.*;
+import com.overzealous.remark.Options;
+import com.overzealous.remark.Remark;
 
 public class HTMLHelper extends Tool {
+
+    private static final long serialVersionUID = 1L;
 
     public static String htmlToMarkdown(String htmlString) {
         try {

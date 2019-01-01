@@ -1,22 +1,24 @@
 package com.hiltonroscoe.mdreportext;
 
-import edu.stanford.nlp.coref.data.CorefChain;
-import edu.stanford.nlp.ling.*;
-import edu.stanford.nlp.ling.CoreAnnotations.NormalizedNamedEntityTagAnnotation;
-import edu.stanford.nlp.ie.util.*;
-import edu.stanford.nlp.pipeline.*;
-import edu.stanford.nlp.semgraph.*;
-import edu.stanford.nlp.trees.*;
-
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.NoSuchElementException;
+import java.util.Properties;
 
 import com.nomagic.magicreport.engine.Tool;
 
+import edu.stanford.nlp.ling.CoreAnnotations.NormalizedNamedEntityTagAnnotation;
+import edu.stanford.nlp.pipeline.CoreDocument;
+import edu.stanford.nlp.pipeline.CoreEntityMention;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+
 public class NLPLanguage extends Tool {
 
+  private static final long serialVersionUID = 1L;
   private static StanfordCoreNLP _pipeline;
 
   public static StanfordCoreNLP getPipeline() {
