@@ -41,8 +41,13 @@ public class NLPLanguage extends Tool {
 
     // disable statistical models
     // WE CAN'T BC OF A BUG IN CORENLP which breaks mentions!!
-    // props.setProperty("ner.model", "");
+    props.setProperty("pos.verbose", "true");
+    props.setProperty("pos.model",
+        "edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger");
+    props.setProperty("ner.model", "edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz");
     props.setProperty("ner.applyFineGrained", "false");
+    // to avoid loading more models
+    props.setProperty("ner.useSUTime", "false");
     props.setProperty("ner.additional.regexner.mapping", "mapping.txt");
     props.setProperty("ner.additional.regexner.ignorecase", "true");
     // normalized is a place to put our hyperlink target (i.e. the term name)
@@ -57,12 +62,15 @@ public class NLPLanguage extends Tool {
 
   public static void main(String[] args) {
     String text = "Programmed device that creates credentials necessary to begin a voting session using a specific ballot style. Oh how I do love ballot style.";
-    String text2 = "Sam is a strong man with much power.";
-    runNLP(text);
-    runNLP(text2);
+    System.out.println(runNLP(text,"ballot style"));
   }
-
-  public static String runNLP(String text) {
+/**
+ * 
+ * @param text The corpus to annotate
+ * @param currentTerm The current term under annotation
+ * @return
+ */
+  public static String runNLP(String text, String currentTerm) {
     StanfordCoreNLP pipeline = getPipeline();
     // create a document object
     CoreDocument document = new CoreDocument(text);
@@ -81,12 +89,20 @@ public class NLPLanguage extends Tool {
     List<CoreEntityMention> permittedMentions = new LinkedList<CoreEntityMention>();
     List<CoreEntityMention> termMentions = document.entityMentions();
     for (CoreEntityMention termMention : termMentions) {
-      System.out.println("[NER] " + termMention);
+      // System.out.println("[NER] " + termMention);
       // we are assuming the list is in reading order!
+      boolean disallowSelfReference = true;
+      if(disallowSelfReference){
+        // don't link to the term we are annotating!
+        if(currentTerm.equals(termMention.text())){
+          continue;
+        }
+      }
+      
       if (firstMentions) {
         // check if we don't already have a mention.
         if (permittedMentions.stream().anyMatch(p -> p.text().equals(termMention.text()))) {
-          System.out.println("[NER] already matched " + termMention.text());
+          // System.out.println("[NER] already matched " + termMention.text());
         } else {
           permittedMentions.add(termMention);
         }
@@ -94,10 +110,10 @@ public class NLPLanguage extends Tool {
     }
 
     // DEBUG SECTION
-    for (CoreLabel token : document.tokens()) {
-      System.out.println(token.word() + "\t" + token.beginPosition() + "\t" + token.endPosition());
-    }
-    System.out.println("permitted mentions " + permittedMentions);
+    // for (CoreLabel token : document.tokens()) {
+    //   System.out.println(token.word() + "\t" + token.beginPosition() + "\t" + token.endPosition());
+    // }
+    // System.out.println("permitted mentions " + permittedMentions);
     Iterator<CoreEntityMention> permittedMentionsIt = permittedMentions.iterator();
     CoreEntityMention mentionMatchTarget = permittedMentionsIt.next();
     // create a stream we can read through
@@ -115,7 +131,7 @@ public class NLPLanguage extends Tool {
             definitionOutputStream.write("]");
             if (mentionMatchTarget.coreMap().containsKey(NormalizedNamedEntityTagAnnotation.class)) {
               definitionOutputStream.write(
-                  "(" + mentionMatchTarget.coreMap().get(NormalizedNamedEntityTagAnnotation.class).toString() + ")");
+                  "(#" + mentionMatchTarget.coreMap().get(NormalizedNamedEntityTagAnnotation.class).toString().replaceAll("\\s+","") + ")");
             }
             mentionMatchTarget = permittedMentionsIt.next();
           }
