@@ -1,12 +1,13 @@
 package com.hiltonroscoe.mdreportext;
 
 import edu.stanford.nlp.ling.Word;
-import edu.stanford.nlp.process.Stemmer;
+import edu.stanford.nlp.process.Morphology;
 import edu.stanford.nlp.util.CoreMap;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.hiltonroscoe.nlp.Stemmer;
 import com.nomagic.magicreport.engine.Tool;
 
 import org.apache.xalan.templates.ElemSort;
@@ -17,6 +18,17 @@ public class Language extends Tool {
     public static String stem(String s) {
         Stemmer l = new Stemmer();
         return l.stem(s);
+    }
+
+    public static String lemmaize(String s) {
+        Morphology morphology = new Morphology();
+        return morphology.stem(s);
+    }
+
+    public static String[] getLemmas(String s) {
+        // still using simple API
+        Document doc = new Document(s);
+        return doc.sentence(0).lemmas().toArray(new String[0]);
     }
 
     public static void main(String[] args) {

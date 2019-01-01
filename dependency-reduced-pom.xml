@@ -7,6 +7,14 @@
   <version>1.0-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
   <build>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/main/resources</directory>
+        <includes>
+          <include>mapping.txt</include>
+        </includes>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>
@@ -73,5 +81,10 @@
       <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\commons-beanutils-1.7.0.jar</systemPath>
     </dependency>
   </dependencies>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
 </project>
 
