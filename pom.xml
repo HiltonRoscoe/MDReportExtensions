@@ -9,6 +9,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.magicDrawPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib</project.magicDrawPath>
   </properties>
   <name>mdreportext</name>
   <url>http://maven.apache.org</url>
@@ -22,15 +23,8 @@
     <groupId>edu.stanford.nlp</groupId>
     <artifactId>stanford-corenlp</artifactId>
     <version>3.9.2</version>
-    <classifier>models</classifier>
+    <classifier>models</classifier>    
 </dependency>
-    <dependency> 
-      <groupId>com.kotcrab.remark</groupId> 
-      <artifactId>remark</artifactId> 
-      <version>1.0.0</version> 
-      <type>pom</type> 
-      <scope>import</scope>      
-    </dependency>
     <dependency> 
       <groupId>com.kotcrab.remark</groupId> 
       <artifactId>remark</artifactId> 
@@ -48,14 +42,14 @@
       <artifactId>magicdraw</artifactId>      
       <version>18.5</version>
       <scope>system</scope>
-      <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\magicreport.jar</systemPath>
+      <systemPath>${project.magicDrawPath}\magicreport.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>org.apache</groupId>
       <artifactId>beatools</artifactId>      
       <version>1</version>
-      <scope>system</scope>
-      <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\commons-beanutils-1.7.0.jar</systemPath>
+      <scope>system</scope>      
+      <systemPath>${project.magicDrawPath}\commons-beanutils-1.7.0.jar</systemPath>
       </dependency>
   </dependencies>  
 <build>
