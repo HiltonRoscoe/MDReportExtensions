@@ -10,7 +10,11 @@ MagicDraw reporting extensions to be used in VTL templates.
 
 ## Creating the JAR
 
-Maven is required. Run the following command
+Maven is required.
+
+Be sure to set the `project.magicDrawPath` property to the absolute path of the `reportwizard/lib` directory.
+
+Run the following command
 
 ```sh
 mvn package

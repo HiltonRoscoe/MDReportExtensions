@@ -16,83 +16,78 @@ import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.CoreEntityMention;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
+/**
+ * Supports Natural Language Processings techniques to aid in the generation of
+ * a semantically linked glossary.
+ */
 public class NLPLanguage extends Tool {
 
   private static final long serialVersionUID = 1L;
   private static StanfordCoreNLP _pipeline;
 
-  public static StanfordCoreNLP getPipeline() {
+  /**
+   * Wrapper around the pipeline, to keep a warm instance around. Because the
+   * pipeline instance is static, the mappingFile parameter will non always be
+   * honored.
+   * 
+   * @param mappingFile The mapping file path, for NER
+   * @return A Stanford CoreNLP pipeline
+   */
+  public static StanfordCoreNLP getPipeline(String mappingFile) {
     if (_pipeline != null) {
       return _pipeline;
     } else {
-      createPipeline();
+      createPipeline(mappingFile);
       return _pipeline;
     }
   }
 
-  private static void createPipeline() {
+  /**
+   * Creates a pipeline for repeated use
+   * 
+   * @param mappingFile The mapping file path, for NER
+   */
+  private static void createPipeline(String mappingFile) {
     // set up pipeline properties
     Properties props = new Properties();
     // set the list of annotators to run
     props.setProperty("annotators", "tokenize,ssplit,pos,lemma,parse,ner");// ,coref,kbp,quote");
-    // set a property for an annotator, in this case the coref annotator is being
-    // set to use the neural algorithm
-    // props.setProperty("coref.algorithm", "neural");
-
-    // set properties for TERM matching (i.e. NER)
 
     // disable statistical models
-    // WE CAN'T BC OF A BUG IN CORENLP which breaks mentions!!
-    props.setProperty("pos.verbose", "true");
+    // REMOVE?
     props.setProperty("pos.model",
         "edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger");
+    // WE CAN'T REMOVE BC OF A BUG IN CORENLP which breaks mentions!!
     props.setProperty("ner.model", "edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz");
     props.setProperty("ner.applyFineGrained", "false");
     // to avoid loading more models
     props.setProperty("ner.useSUTime", "false");
-    props.setProperty("ner.additional.regexner.mapping", "mapping.txt");
+    props.setProperty("ner.additional.regexner.mapping", mappingFile);
     props.setProperty("ner.additional.regexner.ignorecase", "true");
     // normalized is a place to put our hyperlink target (i.e. the term name)
     props.setProperty("ner.additional.regexner.mapping.header", "pattern,ner,normalized,priority");
     props.setProperty("ner.additional.regexner.mapping.field.normalized",
         "edu.stanford.nlp.ling.CoreAnnotations$NormalizedNamedEntityTagAnnotation");
-    // to fix exception, when running regxner
     props.setProperty("ner.buildEntityMentions", "true");
-    // build pipeline
+    // build pipeline, this is an expensive operation!
     _pipeline = new StanfordCoreNLP(props);
   }
 
-  public static void main(String[] args) {
-    String text = "Programmed device that creates credentials necessary to begin a voting session using a specific ballot style. Oh how I do love ballot style.";
-    System.out.println(runNLP(text, "ballot style"));
-  }
-
   /**
+   * Filters the list of mentions, so that they appear only in desired contexts.
    * 
-   * @param text        The corpus to annotate
-   * @param currentTerm The current term under annotation
-   * @return
+   * @param termMentions A list of mentions
+   * @param currentTerm  The name of the current term being annotated
+   * @return A permitted list of mentions
    */
-  public static String runNLP(String text, String currentTerm) {
-    StanfordCoreNLP pipeline = getPipeline();
-    // create a document object
-    CoreDocument document = new CoreDocument(text);
-    // annnotate the document
-    pipeline.annotate(document);
-
-    // after annotation, we need to reconstruct our current term,
-    // with all the goodness
-
+  public static List<CoreEntityMention> getPermittedMentions(List<CoreEntityMention> termMentions, String currentTerm) {
     // controls whether we allow multiple mentions
-    boolean firstMentions = true;
+    boolean firstMentionsOnly = true;
 
-    // for (CoreSentence sentence : document.sentences()) {
     // the entity mentions are our terms matched in definition
     // need to detect them as we write out the sentence.
     List<CoreEntityMention> permittedMentions = new LinkedList<CoreEntityMention>();
-    List<CoreEntityMention> termMentions = document.entityMentions();
     for (CoreEntityMention termMention : termMentions) {
-      // System.out.println("[NER] " + termMention);
       // we are assuming the list is in reading order!
       // only include terms we tagged (i.e. ignore statistical models)
       if (termMention.entityType() == "GLOSSARY_TERM") {
@@ -105,7 +100,7 @@ public class NLPLanguage extends Tool {
           }
         }
 
-        if (firstMentions) {
+        if (firstMentionsOnly) {
           // check if we don't already have a mention.
           if (permittedMentions.stream().anyMatch(p -> p.text().equals(termMention.text()))) {
             // System.out.println("[NER] already matched " + termMention.text());
@@ -115,12 +110,26 @@ public class NLPLanguage extends Tool {
         }
       }
     }
-    // DEBUG SECTION
-    // for (CoreLabel token : document.tokens()) {
-    // System.out.println(token.word() + "\t" + token.beginPosition() + "\t" +
-    // token.endPosition());
-    // }
-    // System.out.println("permitted mentions " + permittedMentions);
+    return permittedMentions;
+  }
+
+  /**
+   * Entry point for MagicDraw report 
+   * @param text        The corpus to annotate
+   * @param currentTerm The current term under annotation
+   * @return The annotated string, in GFM form
+   */
+  public static String runNLP(String text, String currentTerm, String mappingFile) {
+    StanfordCoreNLP pipeline = getPipeline(mappingFile);
+    // create a document object
+    CoreDocument document = new CoreDocument(text);
+    // annnotate the document
+    pipeline.annotate(document);
+
+    List<CoreEntityMention> termMentions = document.entityMentions();
+    List<CoreEntityMention> permittedMentions = getPermittedMentions(termMentions, currentTerm);
+
+    // iterate over the permitted mentions, matching them as we go
     Iterator<CoreEntityMention> permittedMentionsIt = permittedMentions.iterator();
     CoreEntityMention mentionMatchTarget = null;
     if (permittedMentionsIt.hasNext()) {
@@ -129,9 +138,9 @@ public class NLPLanguage extends Tool {
     // create a stream we can read through
     StringWriter definitionOutputStream = new StringWriter();
     try (StringReader definitionInputStream = new StringReader(document.text())) {
-      int char2;
+      int currentChar;
       int pos = 0;
-      while ((char2 = definitionInputStream.read()) != -1) {
+      while ((currentChar = definitionInputStream.read()) != -1) {
         if (mentionMatchTarget != null) {
           try {
             if (pos == mentionMatchTarget.charOffsets().first()) {
@@ -149,7 +158,7 @@ public class NLPLanguage extends Tool {
           } catch (NoSuchElementException e) {
           }
         }
-        definitionOutputStream.write(char2);
+        definitionOutputStream.write(currentChar);
         pos++;
 
       }
