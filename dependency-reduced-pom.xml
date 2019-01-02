@@ -5,11 +5,12 @@
   <artifactId>mdreportext</artifactId>
   <name>mdreportext</name>
   <version>1.0-SNAPSHOT</version>
-  <url>http://maven.apache.org</url>
+  <description>Report Extensions for MagicDraw VTL</description>
+  <url>https://github.com/HiltonRoscoe/MDReportExtensions</url>
   <build>
     <resources>
       <resource>
-        <directory>${basedir}/src/main/resources</directory>
+        <directory>${basedir}/src/main/com/hiltonroscoe/mdreportext/resources</directory>
         <includes>
           <include>mapping.txt</include>
         </includes>
@@ -34,12 +35,6 @@
               <minimizeJar>true</minimizeJar>
               <filters>
                 <filter>
-                  <artifact>de.jollyday</artifact>
-                  <includes>
-                    <include>**</include>
-                  </includes>
-                </filter>
-                <filter>
                   <artifact>edu.stanford.nlp:stanford-corenlp</artifact>
                   <includes>
                     <include>**</include>
@@ -51,7 +46,6 @@
                     <include>edu/stanford/nlp/models/pos-tagger/**</include>
                     <include>edu/stanford/nlp/models/ner/**</include>
                     <include>edu/stanford/nlp/models/lexparser/**</include>
-                    <include>edu/stanford/nlp/models/sutime/**</include>
                   </includes>
                 </filter>
               </filters>
@@ -63,13 +57,6 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>com.kotcrab.remark</groupId>
-      <artifactId>remark</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
-      <scope>import</scope>
-    </dependency>
-    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
@@ -80,17 +67,18 @@
       <artifactId>magicdraw</artifactId>
       <version>18.5</version>
       <scope>system</scope>
-      <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\magicreport.jar</systemPath>
+      <systemPath>${project.magicDrawPath}\magicreport.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>org.apache</groupId>
       <artifactId>beatools</artifactId>
       <version>1</version>
       <scope>system</scope>
-      <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\commons-beanutils-1.7.0.jar</systemPath>
+      <systemPath>${project.magicDrawPath}\commons-beanutils-1.7.0.jar</systemPath>
     </dependency>
   </dependencies>
   <properties>
+    <project.magicDrawPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib</project.magicDrawPath>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>

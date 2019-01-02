@@ -74,12 +74,6 @@
                             <minimizeJar>true</minimizeJar>
                             <filters>
                                 <filter>
-                                    <artifact>de.jollyday</artifact>
-                                    <includes>
-                                        <include>**</include>
-                                    </includes>
-                                </filter>
-                                <filter>
                                     <artifact>edu.stanford.nlp:stanford-corenlp</artifact>
                                     <includes>
                                         <include>**</include>
@@ -91,7 +85,6 @@
                                         <include>edu/stanford/nlp/models/pos-tagger/**</include>
                                         <include>edu/stanford/nlp/models/ner/**</include>
                                         <include>edu/stanford/nlp/models/lexparser/**</include>
-                                        <include>edu/stanford/nlp/models/sutime/**</include>
                                     </includes>
                                 </filter>
                             </filters>

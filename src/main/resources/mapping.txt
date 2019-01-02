@@ -1,298 +1,298 @@
-( [ {lemma:/\Qabsentee\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	absentee ballot	15
-( [ {lemma:/\Qabsentee\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	absentee voting	15
-( [ {lemma:/\Qacceptance\E/} ][ {lemma:/\Qtesting\E/} ] )	GLOSSARY_TERM	acceptance testing	18
-( [ {lemma:/\Qaccess\E/} ][ {lemma:/\Qcontrol\E/} ] )	GLOSSARY_TERM	access control	14
-( [ {lemma:/\Qaccessibility\E/} ] )	GLOSSARY_TERM	accessibility	13
-( [ {lemma:/\Qaccreditation\E/} ] )	GLOSSARY_TERM	accreditation	13
-( [ {lemma:/\Qaccreditation\E/} ][ {lemma:/\Qbody\E/} ] )	GLOSSARY_TERM	accreditation body	18
-( [ {lemma:/\Qactivation\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	activation device	17
-( [ {lemma:/\Qactive\E/} ][ {lemma:/\Qperiod\E/} ] )	GLOSSARY_TERM	active period	13
-( [ {lemma:/\Qadjudication\E/} ] )	GLOSSARY_TERM	adjudication	12
-( [ {lemma:/\Qadjudication-required\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	adjudication-required ballot	28
-( [ {lemma:/\Qaffiliation\E/} ] )	GLOSSARY_TERM	affiliation	11
-( [ {lemma:/\Qair\E/} ][ {lemma:/\Qgap\E/} ] )	GLOSSARY_TERM	air gap	7
-( [ {lemma:/\Qalert\E/} ][ {lemma:/\Qtime\E/} ] )	GLOSSARY_TERM	alert time	10
-( [ {lemma:/\Qalternative\E/} ][ {lemma:/\Qformat\E/} ] )	GLOSSARY_TERM	alternative format	18
-( [ {lemma:/\Qappropriate\E/} ][ {lemma:/\Qmark\E/} ] )	GLOSSARY_TERM	appropriate mark	16
-( [ {lemma:/\Qapproval\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	approval voting	15
-( [ {lemma:/\Qarchival\E/} ][ {lemma:/\Qmedia\E/} ] )	GLOSSARY_TERM	archival media	14
-( [ {lemma:/\Qassistive\E/} ][ {lemma:/\Qtechnology\E/} ] )	GLOSSARY_TERM	assistive technology	20
-( [ {lemma:/\Qasymmetric\E/} ][ {lemma:/\Qcryptography\E/} ] )	GLOSSARY_TERM	asymmetric cryptography	23
-( [ {lemma:/\Qaudio\E/} ][ {lemma:/\Qformat\E/} ] )	GLOSSARY_TERM	audio format	12
-( [ {lemma:/\Qaudit\E/} ] )	GLOSSARY_TERM	audit	5
-( [ {lemma:/\Qaudit\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	audit device	12
-( [ {lemma:/\Qaudit\E/} ][ {lemma:/\Qtrail\E/} ] )	GLOSSARY_TERM	audit trail	11
-( [ {lemma:/\Qauthentication\E/} ] )	GLOSSARY_TERM	authentication	14
-( [ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	ballot	6
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qcounting\E/} ][ {lemma:/\Qlogic\E/} ] )	GLOSSARY_TERM	ballot counting logic	21
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qdatum\E/} ] )	GLOSSARY_TERM	ballot data	11
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qdisplay\E/} ][ {lemma:/\Qformat\E/} ] )	GLOSSARY_TERM	ballot display format	21
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qimage\E/} ] )	GLOSSARY_TERM	ballot image	12
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qinstruction\E/} ] )	GLOSSARY_TERM	ballot instructions	19
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qmanifest\E/} ] )	GLOSSARY_TERM	ballot manifest	15
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qmark\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	ballot marking device	21
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qmark\E/} ][ {lemma:/\Qtarget\E/} ][ {lemma:/\Qarea\E/} ] )	GLOSSARY_TERM	ballot marking target area	26
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qmeasure\E/} ] )	GLOSSARY_TERM	ballot measure	14
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qmeasure\E/} ][ {lemma:/\Qoption\E/} ] )	GLOSSARY_TERM	ballot measure option	21
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qon\E/} ][ {lemma:/\Qdemandâ\E/} ][ {lemma:/\Q®\E/} ] )	GLOSSARY_TERM	ballot on demandÂ®	18
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qproduction\E/} ] )	GLOSSARY_TERM	ballot production	17
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qrotation\E/} ] )	GLOSSARY_TERM	ballot rotation	15
-( [ {lemma:/\Qballot\E/} ][ {lemma:/\Qstyle\E/} ] )	GLOSSARY_TERM	ballot style	12
-( [ {lemma:/\Qbarcode\E/} ] )	GLOSSARY_TERM	barcode	7
-( [ {lemma:/\Qbarcode\E/} ][ {lemma:/\Qreader\E/} ] )	GLOSSARY_TERM	barcode reader	14
-( [ {lemma:/\Qbatch\E/} ] )	GLOSSARY_TERM	batch	5
-( [ {lemma:/\Qbatch\E/} ][ {lemma:/\Qfed\E/} ][ {lemma:/\Qscanner\E/} ] )	GLOSSARY_TERM	batch fed scanner	17
-( [ {lemma:/\Qbenchmark\E/} ] )	GLOSSARY_TERM	benchmark	9
-( [ {lemma:/\Qblank\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	blank ballot	12
-( [ {lemma:/\Qcallable\E/} ][ {lemma:/\Qunit\E/} ] )	GLOSSARY_TERM	callable unit	13
-( [ {lemma:/\Qcandidate\E/} ] )	GLOSSARY_TERM	candidate	9
-( [ {lemma:/\Qcandidate\E/} ][ {lemma:/\Qoption\E/} ] )	GLOSSARY_TERM	candidate option	16
-( [ {lemma:/\Qcanvass\E/} ] )	GLOSSARY_TERM	canvass	7
-( [ {lemma:/\Qcast\E/} ] )	GLOSSARY_TERM	cast	4
-( [ {lemma:/\Qcast\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	cast ballot	11
-( [ {lemma:/\Qcast\E/} ][ {lemma:/\Qvote\E/} ][ {lemma:/\Qrecord\E/} ] )	GLOSSARY_TERM	cast vote record	16
-( [ {lemma:/\Qcentral\E/} ][ {lemma:/\Qreporting\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	central reporting device	24
-( [ {lemma:/\Qcertification\E/} ][ {lemma:/\Qtesting\E/} ] )	GLOSSARY_TERM	certification testing	21
-( [ {lemma:/\QCiphertext\E/} ] )	GLOSSARY_TERM	Ciphertext	10
-( [ {lemma:/\Qclose\E/} ][ {lemma:/\Qprimary\E/} ] )	GLOSSARY_TERM	closed primary	14
-( [ {lemma:/\Qcombined\E/} ][ {lemma:/\Qprecinct\E/} ] )	GLOSSARY_TERM	combined precinct	17
-( [ {lemma:/\Qcommercial-off-the-shelf\E/} ] )	GLOSSARY_TERM	commercial-off-the-shelf	24
-( [ {lemma:/\QCommon\E/} ][ {lemma:/\QData\E/} ][ {lemma:/\QFormat\E/} ] )	GLOSSARY_TERM	Common Data Format	18
-( [ {lemma:/\Qcommon\E/} ][ {lemma:/\Qindustry\E/} ][ {lemma:/\Qformat\E/} ] )	GLOSSARY_TERM	Common Industry Format	22
-( [ {lemma:/\Qcomponent\E/} ] )	GLOSSARY_TERM	component	9
-( [ {lemma:/\Qconfidentiality\E/} ] )	GLOSSARY_TERM	confidentiality	15
-( [ {lemma:/\Qconfiguration\E/} ][ {lemma:/\Qmanagement\E/} ] )	GLOSSARY_TERM	configuration management	24
-( [ {lemma:/\Qconformance\E/} ] )	GLOSSARY_TERM	conformance	11
-( [ {lemma:/\Qconformance\E/} ][ {lemma:/\Qtesting\E/} ] )	GLOSSARY_TERM	conformance testing	19
-( [ {lemma:/\Qcontest\E/} ] )	GLOSSARY_TERM	contest	7
-( [ {lemma:/\Qcontest\E/} ][ {lemma:/\Qoption\E/} ] )	GLOSSARY_TERM	contest option	14
-( [ {lemma:/\Qcontest\E/} ][ {lemma:/\Qoption\E/} ][ {lemma:/\Qposition\E/} ] )	GLOSSARY_TERM	contest option position	23
-( [ {lemma:/\Qcontest\E/} ][ {lemma:/\Qoption\E/} ][ {lemma:/\Qvote\E/} ] )	GLOSSARY_TERM	contest option vote	19
-( [ {lemma:/\Qcontest\E/} ][ {lemma:/\Qselection\E/} ] )	GLOSSARY_TERM	contest selection	17
-( [ {lemma:/\Qcore\E/} ][ {lemma:/\Qlogic\E/} ] )	GLOSSARY_TERM	core logic	10
-( [ {lemma:/\Qcorrective\E/} ][ {lemma:/\Qaction\E/} ] )	GLOSSARY_TERM	corrective action	17
-( [ {lemma:/\Qcount\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	counted ballot	14
-( [ {lemma:/\Qcross-party\E/} ][ {lemma:/\Qendorsement\E/} ] )	GLOSSARY_TERM	cross-party endorsement	23
-( [ {lemma:/\Qcryptographic\E/} ][ {lemma:/\Qend-to-end\E/} ][ {lemma:/\Qvoting\E/} ][ {lemma:/\Qsystem\E/} ] )	GLOSSARY_TERM	cryptographic end-to-end voting system	38
-( [ {lemma:/\Qcryptographic\E/} ][ {lemma:/\Qhash\E/} ] )	GLOSSARY_TERM	cryptographic hash	18
-( [ {lemma:/\Qcryptographic\E/} ][ {lemma:/\Qkey\E/} ] )	GLOSSARY_TERM	cryptographic key	17
-( [ {lemma:/\Qcryptography\E/} ] )	GLOSSARY_TERM	cryptography	12
-( [ {lemma:/\Qcumulative\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	cumulative voting	17
-( [ {lemma:/\Qcybersecurity\E/} ] )	GLOSSARY_TERM	cybersecurity	13
-( [ {lemma:/\Qdecertification\E/} ] )	GLOSSARY_TERM	decertification	15
-( [ {lemma:/\Qdecryption\E/} ] )	GLOSSARY_TERM	decryption	10
-( [ {lemma:/\Qdefense-in-depth\E/} ] )	GLOSSARY_TERM	defense-in-depth	16
-( [ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	device	6
-( [ {lemma:/\Qdigital\E/} ][ {lemma:/\Qcertificate\E/} ] )	GLOSSARY_TERM	digital certificate	19
-( [ {lemma:/\Qdigital\E/} ][ {lemma:/\Qsignature\E/} ] )	GLOSSARY_TERM	digital signature	17
-( [ {lemma:/\Qdirect\E/} ][ {lemma:/\Qrecording\E/} ][ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qvoting\E/} ][ {lemma:/\Qmachine\E/} ] )	GLOSSARY_TERM	direct recording electronic voting machine	42
-( [ {lemma:/\Qdynamic\E/} ][ {lemma:/\Qpassword\E/} ] )	GLOSSARY_TERM	dynamic password	16
-( [ {lemma:/\Qeac\E/} ] )	GLOSSARY_TERM	EAC	3
-( [ {lemma:/\Qearly\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	early voting	12
-( [ {lemma:/\Qearly\E/} ][ {lemma:/\Qvoting\E/} ][ {lemma:/\Qcenter\E/} ] )	GLOSSARY_TERM	early voting center	19
-( [ {lemma:/\Qelect\E/} ][ {lemma:/\Qoffice\E/} ] )	GLOSSARY_TERM	elected office	14
-( [ {lemma:/\Qelection\E/} ] )	GLOSSARY_TERM	election	8
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qcertification\E/} ] )	GLOSSARY_TERM	election certification	22
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qday\E/} ] )	GLOSSARY_TERM	election day	12
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qdefinition\E/} ] )	GLOSSARY_TERM	election definition	19
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qdefinition\E/} ][ {lemma:/\Qmedium\E/} ] )	GLOSSARY_TERM	election definition medium	26
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qdistrict\E/} ] )	GLOSSARY_TERM	election district	17
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qjurisdiction\E/} ] )	GLOSSARY_TERM	election jurisdiction	21
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qmanagement\E/} ][ {lemma:/\Qsystem\E/} ] )	GLOSSARY_TERM	election management system	26
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qofficial\E/} ] )	GLOSSARY_TERM	election official	17
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qprogramming\E/} ] )	GLOSSARY_TERM	election programming	20
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qresult\E/} ][ {lemma:/\QReporting\E/} ][ {lemma:/\QSystem\E/} ] )	GLOSSARY_TERM	Election Results Reporting System	33
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qsystem\E/} ] )	GLOSSARY_TERM	election system	15
-( [ {lemma:/\Qelection\E/} ][ {lemma:/\Qworker\E/} ] )	GLOSSARY_TERM	election worker	15
-( [ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qdelivery\E/} ] )	GLOSSARY_TERM	electronic ballot delivery	26
-( [ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qinterface\E/} ] )	GLOSSARY_TERM	electronic ballot interface	27
-( [ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qreturn\E/} ] )	GLOSSARY_TERM	electronic ballot return	24
-( [ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	electronic device	17
-( [ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qpoll\E/} ][ {lemma:/\Qbook\E/} ] )	GLOSSARY_TERM	electronic poll book	20
-( [ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qvoter\E/} ][ {lemma:/\Qinterface\E/} ] )	GLOSSARY_TERM	electronic voter interface	26
-( [ {lemma:/\Qeligible\E/} ][ {lemma:/\Qvoter\E/} ] )	GLOSSARY_TERM	eligible voters	15
-( [ {lemma:/\Qencryption\E/} ] )	GLOSSARY_TERM	encryption	10
-( [ {lemma:/\Qendorsement\E/} ] )	GLOSSARY_TERM	endorsement	11
-( [ {lemma:/\Qenhance\E/} ][ {lemma:/\Qvisual\E/} ][ {lemma:/\Qformat\E/} ] )	GLOSSARY_TERM	enhanced visual format	22
-( [ {lemma:/\Qerror\E/} ][ {lemma:/\Qcorrection\E/} ][ {lemma:/\Qcode\E/} ] )	GLOSSARY_TERM	error correction code	21
-( [ {lemma:/\Qerror\E/} ][ {lemma:/\Qrate\E/} ] )	GLOSSARY_TERM	error rate	10
-( [ {lemma:/\Qescalation\E/} ][ {lemma:/\Qof\E/} ][ {lemma:/\Qprivilege\E/} ] )	GLOSSARY_TERM	escalation of privilege	23
-( [ {lemma:/\Qexhaust\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	exhausted ballot	16
-( [ {lemma:/\Qexpect\E/} ][ {lemma:/\Qmark\E/} ] )	GLOSSARY_TERM	expected mark	13
-( [ {lemma:/\Qextensible\E/} ][ {lemma:/\Qmarkup\E/} ][ {lemma:/\Qlanguage\E/} ] )	GLOSSARY_TERM	Extensible Markup Language	26
-( [ {lemma:/\Qextraneous\E/} ][ {lemma:/\Qmark\E/} ] )	GLOSSARY_TERM	extraneous mark	15
-( [ {lemma:/\Qfailure\E/} ] )	GLOSSARY_TERM	failure	7
-( [ {lemma:/\Qfailure\E/} ][ {lemma:/\Qrate\E/} ] )	GLOSSARY_TERM	failure rate	12
-( [ {lemma:/\Qfault\E/} ] )	GLOSSARY_TERM	fault	5
-( [ {lemma:/\Qfault-tolerant\E/} ] )	GLOSSARY_TERM	fault-tolerant	14
-( [ {lemma:/\QFederal\E/} ][ {lemma:/\QInformation\E/} ][ {lemma:/\QProcessing\E/} ][ {lemma:/\QStandards\E/} ] )	GLOSSARY_TERM	Federal Information Processing Standards	40
-( [ {lemma:/\Qfinding\E/} ] )	GLOSSARY_TERM	finding	7
-( [ {lemma:/\Qfirewall\E/} ] )	GLOSSARY_TERM	firewall	8
-( [ {lemma:/\Qfirmware\E/} ] )	GLOSSARY_TERM	firmware	8
-( [ {lemma:/\Qfunctional\E/} ][ {lemma:/\QConfiguration\E/} ][ {lemma:/\QAudit\E/} ] )	GLOSSARY_TERM	Functional Configuration Audit	30
-( [ {lemma:/\Qfunctional\E/} ][ {lemma:/\Qtest\E/} ] )	GLOSSARY_TERM	functional test	15
-( [ {lemma:/\Qgeneral\E/} ][ {lemma:/\Qelection\E/} ] )	GLOSSARY_TERM	general election	16
-( [ {lemma:/\QGeographical\E/} ][ {lemma:/\QInformation\E/} ][ {lemma:/\QSystem\E/} ] )	GLOSSARY_TERM	Geographical Information System	31
-( [ {lemma:/\Qgeopolitical\E/} ][ {lemma:/\Qunit\E/} ] )	GLOSSARY_TERM	Geopolitical Unit	17
-( [ {lemma:/\Qhardware\E/} ] )	GLOSSARY_TERM	hardware	8
-( [ {lemma:/\Qhelp\E/} ][ {lemma:/\QAmerica\E/} ][ {lemma:/\Qvote\E/} ][ {lemma:/\QAct\E/} ] )	GLOSSARY_TERM	Help America Vote Act	21
-( [ {lemma:/\Qimplementation\E/} ][ {lemma:/\Qstatement\E/} ] )	GLOSSARY_TERM	implementation statement	24
-( [ {lemma:/\Qin-person\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	in-person voting	16
-( [ {lemma:/\Qindependently\E/} ] )	GLOSSARY_TERM	independently	13
-( [ {lemma:/\Qinformation\E/} ][ {lemma:/\Qsecurity\E/} ] )	GLOSSARY_TERM	information security	20
-( [ {lemma:/\Qinspection\E/} ] )	GLOSSARY_TERM	inspection	10
-( [ {lemma:/\Qinteraction\E/} ][ {lemma:/\Qmode\E/} ] )	GLOSSARY_TERM	interaction mode	16
-( [ {lemma:/\Qinteroperability\E/} ] )	GLOSSARY_TERM	interoperability	16
-( [ {lemma:/\Qintrusion\E/} ][ {lemma:/\Qdetection\E/} ][ {lemma:/\Qsystem\E/} ] )	GLOSSARY_TERM	Intrusion Detection System	26
-( [ {lemma:/\QIntrusion\E/} ][ {lemma:/\QPrevention\E/} ][ {lemma:/\QSystem\E/} ] )	GLOSSARY_TERM	Intrusion Prevention System	27
-( [ {lemma:/\Qkey\E/} ][ {lemma:/\Qmanagement\E/} ] )	GLOSSARY_TERM	key management	14
-( [ {lemma:/\Qlife\E/} ][ {lemma:/\Qcycle\E/} ] )	GLOSSARY_TERM	life cycle	10
-( [ {lemma:/\Qlocality\E/} ] )	GLOSSARY_TERM	locality	8
-( [ {lemma:/\Qlogic\E/} ][ {lemma:/\Qand\E/} ][ {lemma:/\Qaccuracy\E/} ][ {lemma:/\Qtesting\E/} ] )	GLOSSARY_TERM	logic and accuracy testing	26
-( [ {lemma:/\Qlogic\E/} ][ {lemma:/\Qdefect\E/} ] )	GLOSSARY_TERM	logic defect	12
-( [ {lemma:/\Qlogical\E/} ][ {lemma:/\Qcorrectness\E/} ] )	GLOSSARY_TERM	logical correctness	19
-( [ {lemma:/\Qlowno\E/} ] [ {lemma:/\Qdexterity\E/} ] [ {lemma:/\Qmode\E/} ] )	GLOSSARY_TERM	low/no dexterity mode	21
-( [ {lemma:/\Qmachine\E/} ][ {lemma:/\Qunreadable\E/} ][ {lemma:/\Qmark\E/} ] )	GLOSSARY_TERM	machine unreadable mark	23
-( [ {lemma:/\Qmachine-readable\E/} ][ {lemma:/\Qmark\E/} ] )	GLOSSARY_TERM	machine-readable mark	21
-( [ {lemma:/\Qmalware\E/} ] )	GLOSSARY_TERM	malware	7
-( [ {lemma:/\Qmanually-marked\E/} ][ {lemma:/\Qpaper\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	manually-marked paper ballot	28
-( [ {lemma:/\Qmanufacturer\E/} ] )	GLOSSARY_TERM	manufacturer	12
-( [ {lemma:/\Qmarginally\E/} ][ {lemma:/\Qmachine-readable\E/} ][ {lemma:/\Qmark\E/} ] )	GLOSSARY_TERM	marginally machine-readable mark	32
-( [ {lemma:/\Qmarked\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	marked ballot	13
-( [ {lemma:/\Qmilitary\E/} ][ {lemma:/\Qvoter\E/} ] )	GLOSSARY_TERM	military voter	14
-( [ {lemma:/\Qmisfeed\E/} ][ {lemma:/\Qrate\E/} ] )	GLOSSARY_TERM	misfeed rate	12
-( [ {lemma:/\Qmodule\E/} ] )	GLOSSARY_TERM	module	6
-( [ {lemma:/\Qmulti-factor\E/} ][ {lemma:/\Qauthentication\E/} ] )	GLOSSARY_TERM	multi-factor authentication	27
-( [ {lemma:/\Qmulti-seat\E/} ][ {lemma:/\Qcontest\E/} ] )	GLOSSARY_TERM	multi-seat contest	18
-( [ {lemma:/\Qmunicipality\E/} ] )	GLOSSARY_TERM	municipality	12
-( [ {lemma:/\Qn-of-m\E/} ] )	GLOSSARY_TERM	N-of-M	6
-( [ {lemma:/\Qnational\E/} ][ {lemma:/\Qcertification\E/} ][ {lemma:/\Qtest\E/} ][ {lemma:/\Qreport\E/} ] )	GLOSSARY_TERM	national certification test report	34
-( [ {lemma:/\QNational\E/} ][ {lemma:/\QInstitute\E/} ][ {lemma:/\Qof\E/} ][ {lemma:/\QStandards\E/} ][ {lemma:/\Qand\E/} ][ {lemma:/\QTechnology\E/} ] )	GLOSSARY_TERM	National Institute of Standards and Technology	46
-( [ {lemma:/\Qnon-party-specific\E/} ][ {lemma:/\Qcontest\E/} ] )	GLOSSARY_TERM	non-party-specific contest	26
-( [ {lemma:/\Qnon-user-serviceable\E/} ][ {lemma:/\Qfailure\E/} ] )	GLOSSARY_TERM	non-user-serviceable failure	28
-( [ {lemma:/\Qnonpartisan\E/} ][ {lemma:/\Qoffice\E/} ] )	GLOSSARY_TERM	nonpartisan office	18
-( [ {lemma:/\Qnonpartisan\E/} ][ {lemma:/\Qprimary\E/} ] )	GLOSSARY_TERM	nonpartisan primary	19
-( [ {lemma:/\Qnonvolatile\E/} ][ {lemma:/\Qmemory\E/} ] )	GLOSSARY_TERM	nonvolatile memory	18
-( [ {lemma:/\Qnotice\E/} ][ {lemma:/\Qof\E/} ][ {lemma:/\Qclarification\E/} ] )	GLOSSARY_TERM	notice of clarification	23
-( [ {lemma:/\Qobservational\E/} ][ {lemma:/\Qtest\E/} ] )	GLOSSARY_TERM	observational test	18
-( [ {lemma:/\Qoffice\E/} ] )	GLOSSARY_TERM	office	6
-( [ {lemma:/\Qopen\E/} ][ {lemma:/\Qprimary\E/} ] )	GLOSSARY_TERM	open primary	12
-( [ {lemma:/\Qopen\E/} ][ {lemma:/\Qsource\E/} ] )	GLOSSARY_TERM	open source	11
-( [ {lemma:/\Qoptical\E/} ][ {lemma:/\Qscan\E/} ] )	GLOSSARY_TERM	optical scan	12
-( [ {lemma:/\Qoverseas\E/} ][ {lemma:/\Qvoter\E/} ] )	GLOSSARY_TERM	overseas voter	14
-( [ {lemma:/\Qovervote\E/} ] )	GLOSSARY_TERM	overvote	8
-( [ {lemma:/\Qpaper\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	paper ballot	12
-( [ {lemma:/\Qpaper\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qsheet\E/} ] )	GLOSSARY_TERM	paper ballot sheet	18
-( [ {lemma:/\Qpaper\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qside\E/} ] )	GLOSSARY_TERM	paper ballot side	17
-( [ {lemma:/\Qpartisan\E/} ][ {lemma:/\Qoffice\E/} ] )	GLOSSARY_TERM	partisan office	15
-( [ {lemma:/\Qpartisan\E/} ][ {lemma:/\Qprimary\E/} ] )	GLOSSARY_TERM	partisan primary	16
-( [ {lemma:/\Qparty-specific\E/} ][ {lemma:/\Qcontest\E/} ] )	GLOSSARY_TERM	party-specific contest	22
-( [ {lemma:/\Qpattern\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	pattern voting	14
-( [ {lemma:/\Qpenetration\E/} ][ {lemma:/\Qtesting\E/} ] )	GLOSSARY_TERM	penetration testing	19
-( [ {lemma:/\Qpersonal\E/} ][ {lemma:/\Qassistive\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	personal assistive device	25
-( [ {lemma:/\Qpersonal\E/} ][ {lemma:/\Qidentifiable\E/} ][ {lemma:/\Qinformation\E/} ] )	GLOSSARY_TERM	Personal Identifiable Information	33
-( [ {lemma:/\Qphysical\E/} ][ {lemma:/\QConfiguration\E/} ][ {lemma:/\QAudit\E/} ] )	GLOSSARY_TERM	Physical Configuration Audit	28
-( [ {lemma:/\Qpolitical\E/} ][ {lemma:/\Qsubdivision\E/} ] )	GLOSSARY_TERM	political subdivision	21
-( [ {lemma:/\Qpolling\E/} ][ {lemma:/\Qlocation\E/} ] )	GLOSSARY_TERM	polling location	16
-( [ {lemma:/\Qpolling\E/} ][ {lemma:/\Qplace\E/} ] )	GLOSSARY_TERM	polling place	13
-( [ {lemma:/\Qpost-election\E/} ][ {lemma:/\Qaudit\E/} ] )	GLOSSARY_TERM	post-election audit	19
-( [ {lemma:/\Qprecinct\E/} ] )	GLOSSARY_TERM	precinct	8
-( [ {lemma:/\Qprecinct\E/} ][ {lemma:/\Qcount\E/} ] )	GLOSSARY_TERM	precinct count	14
-( [ {lemma:/\Qprecinct\E/} ][ {lemma:/\Qsplit\E/} ] )	GLOSSARY_TERM	precinct split	14
-( [ {lemma:/\Qpresentable\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qstyle\E/} ] )	GLOSSARY_TERM	presentable ballot style	24
-( [ {lemma:/\Qpresidential\E/} ][ {lemma:/\Qprimary\E/} ][ {lemma:/\Qelection\E/} ] )	GLOSSARY_TERM	presidential primary election	29
-( [ {lemma:/\Qprimary\E/} ][ {lemma:/\Qelection\E/} ] )	GLOSSARY_TERM	primary election	16
-( [ {lemma:/\Qprivacy\E/} ] )	GLOSSARY_TERM	privacy	7
-( [ {lemma:/\Qprivacy\E/} ][ {lemma:/\Qenclosure\E/} ] )	GLOSSARY_TERM	privacy enclosure	17
-( [ {lemma:/\Qprivate\E/} ][ {lemma:/\Qkey\E/} ] )	GLOSSARY_TERM	private key	11
-( [ {lemma:/\Qproduct\E/} ][ {lemma:/\Qstandard\E/} ] )	GLOSSARY_TERM	product standard	16
-( [ {lemma:/\Qprogram\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	programmed device	17
-( [ {lemma:/\Qproportional\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	proportional voting	19
-( [ {lemma:/\Qprovisional\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	provisional ballot	18
-( [ {lemma:/\Qpublic\E/} ][ {lemma:/\Qkey\E/} ] )	GLOSSARY_TERM	public key	10
-( [ {lemma:/\QPublic\E/} ][ {lemma:/\QKey\E/} ][ {lemma:/\QInfrastructure\E/} ] )	GLOSSARY_TERM	Public Key Infrastructure	25
-( [ {lemma:/\Qpublic\E/} ][ {lemma:/\Qtest\E/} ] )	GLOSSARY_TERM	public test	11
-( [ {lemma:/\QQR\E/} ][ {lemma:/\QCode\E/} ] )	GLOSSARY_TERM	QR Code	7
-( [ {lemma:/\Qrange\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	range voting	12
-( [ {lemma:/\Qrank\E/} ][ {lemma:/\Qchoice\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	ranked choice voting	20
-( [ {lemma:/\Qread\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	read ballot	11
-( [ {lemma:/\Qrecall\E/} ][ {lemma:/\Qissue\E/} ][ {lemma:/\Qwith\E/} ][ {lemma:/\Qoption\E/} ] )	GLOSSARY_TERM	recall issue with options	25
-( [ {lemma:/\Qrecallable\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	recallable ballot	17
-( [ {lemma:/\Qrecertification\E/} ] )	GLOSSARY_TERM	recertification	15
-( [ {lemma:/\Qrecord\E/} ] )	GLOSSARY_TERM	record	6
-( [ {lemma:/\Qrecord\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	recorded ballot	15
-( [ {lemma:/\Qrecount\E/} ] )	GLOSSARY_TERM	recount	7
-( [ {lemma:/\Qreport\E/} ] )	GLOSSARY_TERM	report	6
-( [ {lemma:/\Qreport\E/} ][ {lemma:/\Qtotal\E/} ][ {lemma:/\Qerror\E/} ][ {lemma:/\Qrate\E/} ] )	GLOSSARY_TERM	report total error rate	23
-( [ {lemma:/\Qreport\E/} ][ {lemma:/\Qunit\E/} ] )	GLOSSARY_TERM	reporting unit	14
-( [ {lemma:/\Qreproducibility\E/} ] )	GLOSSARY_TERM	reproducibility	15
-( [ {lemma:/\Qresidual\E/} ][ {lemma:/\Qvote\E/} ] )	GLOSSARY_TERM	residual vote	13
-( [ {lemma:/\Qreview\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	reviewed ballot	15
-( [ {lemma:/\Qrisk\E/} ][ {lemma:/\Qassessment\E/} ] )	GLOSSARY_TERM	risk assessment	15
-( [ {lemma:/\Qrisk-limiting\E/} ][ {lemma:/\Qaudit\E/} ] )	GLOSSARY_TERM	risk-limiting audit	19
-( [ {lemma:/\Qrunoff\E/} ][ {lemma:/\Qelection\E/} ] )	GLOSSARY_TERM	runoff election	15
-( [ {lemma:/\Qseat\E/} ] )	GLOSSARY_TERM	seat	4
-( [ {lemma:/\Qsecond\E/} ][ {lemma:/\Qchance\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	second chance voting	20
-( [ {lemma:/\Qsecurity\E/} ][ {lemma:/\Qanalysis\E/} ] )	GLOSSARY_TERM	security analysis	17
-( [ {lemma:/\Qsecurity\E/} ][ {lemma:/\Qcontrol\E/} ] )	GLOSSARY_TERM	security controls	17
-( [ {lemma:/\Qsecurity\E/} ][ {lemma:/\Qstrength\E/} ] )	GLOSSARY_TERM	security strength	17
-( [ {lemma:/\Qsoftware\E/} ][ {lemma:/\Qindependence\E/} ] )	GLOSSARY_TERM	software independence	21
-( [ {lemma:/\Qsource\E/} ][ {lemma:/\Qcode\E/} ] )	GLOSSARY_TERM	source code	11
-( [ {lemma:/\Qspear\E/} ][ {lemma:/\Qphishing\E/} ] )	GLOSSARY_TERM	spear phishing	14
-( [ {lemma:/\Qspecial\E/} ][ {lemma:/\Qelection\E/} ] )	GLOSSARY_TERM	special election	16
-( [ {lemma:/\Qspoil\E/} ] )	GLOSSARY_TERM	spoil	5
-( [ {lemma:/\Qspoil\E/} ][ {lemma:/\Qballot\E/} ] )	GLOSSARY_TERM	spoiled ballot	14
-( [ {lemma:/\Qstandard\E/} ] )	GLOSSARY_TERM	standard	8
-( [ {lemma:/\Qstraight\E/} ][ {lemma:/\Qparty\E/} ][ {lemma:/\Qoverride\E/} ] )	GLOSSARY_TERM	straight party override	23
-( [ {lemma:/\Qstraight\E/} ][ {lemma:/\Qparty\E/} ][ {lemma:/\Qvoting\E/} ] )	GLOSSARY_TERM	straight party voting	21
-( [ {lemma:/\Qstreet\E/} ][ {lemma:/\Qsegment\E/} ][ {lemma:/\Qdatum\E/} ] )	GLOSSARY_TERM	street segment data	19
-( [ {lemma:/\Qsupport\E/} ][ {lemma:/\Qsoftware\E/} ] )	GLOSSARY_TERM	support software	16
-( [ {lemma:/\Qsymmetric\E/} ][ {lemma:/\Qcryptography\E/} ] )	GLOSSARY_TERM	symmetric cryptography	22
-( [ {lemma:/\Qsystem\E/} ][ {lemma:/\Qextent\E/} ] )	GLOSSARY_TERM	system extent	13
-( [ {lemma:/\Qt-coil\E/} ] )	GLOSSARY_TERM	t-coil	6
-( [ {lemma:/\Qtabulate\E/} ] )	GLOSSARY_TERM	tabulate	8
-( [ {lemma:/\Qtactile\E/} ][ {lemma:/\Qcontrol\E/} ] )	GLOSSARY_TERM	tactile controls	16
-( [ {lemma:/\Qtechnical\E/} ][ {lemma:/\Qdatum\E/} ][ {lemma:/\Qpackage\E/} ] )	GLOSSARY_TERM	technical data package	22
-( [ {lemma:/\Qtest\E/} ] )	GLOSSARY_TERM	test	4
-( [ {lemma:/\Qtest\E/} ][ {lemma:/\Qdeck\E/} ] )	GLOSSARY_TERM	test deck	9
-( [ {lemma:/\Qtest\E/} ][ {lemma:/\Qmethod\E/} ] )	GLOSSARY_TERM	test method	11
-( [ {lemma:/\Qtest\E/} ][ {lemma:/\Qplan\E/} ] )	GLOSSARY_TERM	test plan	9
-( [ {lemma:/\Qtest\E/} ][ {lemma:/\Qsuite\E/} ] )	GLOSSARY_TERM	test suite	10
-( [ {lemma:/\Qthird-party\E/} ][ {lemma:/\Qlogic\E/} ] )	GLOSSARY_TERM	third-party logic	17
-( [ {lemma:/\Qtoken\E/} ] )	GLOSSARY_TERM	token	5
-( [ {lemma:/\Qtouch\E/} ][ {lemma:/\Qscreen\E/} ][ {lemma:/\Qvoting\E/} ][ {lemma:/\Qmachine\E/} ] )	GLOSSARY_TERM	touch screen voting machine	27
-( [ {lemma:/\Qtown\E/} ] )	GLOSSARY_TERM	town	4
-( [ {lemma:/\Qtownship\E/} ] )	GLOSSARY_TERM	township	8
-( [ {lemma:/\Qundervote\E/} ] )	GLOSSARY_TERM	undervote	9
-( [ {lemma:/\Quniformed\E/} ][ {lemma:/\Qand\E/} ][ {lemma:/\Qoverseas\E/} ][ {lemma:/\QCitizens\E/} ][ {lemma:/\QAbsentee\E/} ][ {lemma:/\QVoting\E/} ][ {lemma:/\QAct\E/} ] )	GLOSSARY_TERM	Uniformed and Overseas Citizens Absentee Voting Act	51
-( [ {lemma:/\QUOCAVA\E/} ][ {lemma:/\Qvoter\E/} ] )	GLOSSARY_TERM	UOCAVA voter	12
-( [ {lemma:/\Qusability\E/} ] )	GLOSSARY_TERM	usability	9
-( [ {lemma:/\Qusability\E/} ][ {lemma:/\Qtesting\E/} ] )	GLOSSARY_TERM	usability testing	17
-( [ {lemma:/\Quser-serviceable\E/} ][ {lemma:/\Qfailure\E/} ] )	GLOSSARY_TERM	user-serviceable failure	24
-( [ {lemma:/\Qvalid\E/} ][ {lemma:/\Qvote\E/} ] )	GLOSSARY_TERM	valid vote	10
-( [ {lemma:/\Qvalidation\E/} ] )	GLOSSARY_TERM	validation	10
-( [ {lemma:/\Qvisual\E/} ][ {lemma:/\Qformat\E/} ] )	GLOSSARY_TERM	visual format	13
-( [ {lemma:/\Qvote\E/} ] )	GLOSSARY_TERM	vote	4
-( [ {lemma:/\Qvote\E/} ][ {lemma:/\Qcenter\E/} ] )	GLOSSARY_TERM	vote center	11
-( [ {lemma:/\Qvote\E/} ][ {lemma:/\Qfor\E/} ][ {lemma:/\Qn\E/} ][ {lemma:/\Qof\E/} ][ {lemma:/\Qm\E/} ] )	GLOSSARY_TERM	vote for N of M	15
-( [ {lemma:/\Qvote-by-mail\E/} ] )	GLOSSARY_TERM	vote-by-mail	12
-( [ {lemma:/\Qvote-capture\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	vote-capture device	19
-( [ {lemma:/\Qvoter\E/} ] )	GLOSSARY_TERM	voter	5
-( [ {lemma:/\Qvoter\E/} ][ {lemma:/\Qface\E/} ][ {lemma:/\Qscanner\E/} ] )	GLOSSARY_TERM	voter facing scanner	20
-( [ {lemma:/\Qvoter\E/} ][ {lemma:/\Qintent\E/} ] )	GLOSSARY_TERM	voter intent	12
-( [ {lemma:/\Qvoter\E/} ][ {lemma:/\Qintent\E/} ][ {lemma:/\Qstandard\E/} ] )	GLOSSARY_TERM	voter intent standard	21
-( [ {lemma:/\Qvoter\E/} ][ {lemma:/\Qverifiable\E/} ] )	GLOSSARY_TERM	voter verifiable	16
-( [ {lemma:/\Qvoter\E/} ][ {lemma:/\Qverification\E/} ] )	GLOSSARY_TERM	voter verification	18
-( [ {lemma:/\Qvoter\E/} ][ {lemma:/\Qverify\E/} ][ {lemma:/\Qpaper\E/} ][ {lemma:/\Qaudit\E/} ][ {lemma:/\Qtrail\E/} ] )	GLOSSARY_TERM	voter verified paper audit trail	32
-( [ {lemma:/\Qvote\E/} ][ {lemma:/\Qdevice\E/} ] )	GLOSSARY_TERM	voting device	13
-( [ {lemma:/\Qvote\E/} ][ {lemma:/\Qprocess\E/} ] )	GLOSSARY_TERM	voting process	14
-( [ {lemma:/\Qvote\E/} ][ {lemma:/\Qsession\E/} ] )	GLOSSARY_TERM	voting session	14
-( [ {lemma:/\Qvote\E/} ][ {lemma:/\Qstation\E/} ] )	GLOSSARY_TERM	voting station	14
-( [ {lemma:/\Qvote\E/} ][ {lemma:/\Qsystem\E/} ] )	GLOSSARY_TERM	voting system	13
-( [ {lemma:/\Qvote\E/} ][ {lemma:/\Qsystem\E/} ][ {lemma:/\Qsoftware\E/} ] )	GLOSSARY_TERM	voting system software	22
-( [ {lemma:/\QVoting\E/} ][ {lemma:/\QSystem\E/} ][ {lemma:/\QTest\E/} ][ {lemma:/\QLab\E/} ] )	GLOSSARY_TERM	Voting System Test Lab	22
-( [ {lemma:/\Qwhite\E/} ][ {lemma:/\Qbox\E/} ][ {lemma:/\Qtesting\E/} ] )	GLOSSARY_TERM	white box testing	17
-( [ {lemma:/\Qwi-fus\E/} ] )	GLOSSARY_TERM	Wi-Fi	5
-( [ {lemma:/\Qwide\E/} ][ {lemma:/\Qarea\E/} ][ {lemma:/\QNetwork\E/} ] )	GLOSSARY_TERM	Wide Area Network	17
-( [ {lemma:/\Qwireless\E/} ] )	GLOSSARY_TERM	wireless	8
-( [ {lemma:/\Qwrite-in\E/} ][ {lemma:/\Qoption\E/} ] )	GLOSSARY_TERM	write-in option	15
+( ([ {lemma:/\Qabsentee\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	absentee ballot	15
+( ([ {lemma:/\Qabsentee\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	absentee voting	15
+( ([ {lemma:/\Qacceptance\E/} ][ {lemma:/\Qtesting\E/} ]) )	GLOSSARY_TERM	acceptance testing	18
+( ([ {lemma:/\Qaccess\E/} ][ {lemma:/\Qcontrol\E/} ]) )	GLOSSARY_TERM	access control	14
+( ([ {lemma:/\Qaccessibility\E/} ]) )	GLOSSARY_TERM	accessibility	13
+( ([ {lemma:/\Qaccreditation\E/} ]) )	GLOSSARY_TERM	accreditation	13
+( ([ {lemma:/\Qaccreditation\E/} ][ {lemma:/\Qbody\E/} ]) )	GLOSSARY_TERM	accreditation body	18
+( ([ {lemma:/\Qactivation\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	activation device	17
+( ([ {lemma:/\Qactive\E/} ][ {lemma:/\Qperiod\E/} ]) )	GLOSSARY_TERM	active period	13
+( ([ {lemma:/\Qadjudication\E/} ]) )	GLOSSARY_TERM	adjudication	12
+( ([ {lemma:/\Qadjudication-required\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	adjudication-required ballot	28
+( ([ {lemma:/\Qaffiliation\E/} ]) )	GLOSSARY_TERM	affiliation	11
+( ([ {lemma:/\Qair\E/} ][ {lemma:/\Qgap\E/} ]) )	GLOSSARY_TERM	air gap	7
+( ([ {lemma:/\Qalert\E/} ][ {lemma:/\Qtime\E/} ]) )	GLOSSARY_TERM	alert time	10
+( ([ {lemma:/\Qalternative\E/} ][ {lemma:/\Qformat\E/} ]) )	GLOSSARY_TERM	alternative format	18
+( ([ {lemma:/\Qappropriate\E/} ][ {lemma:/\Qmark\E/} ]) )	GLOSSARY_TERM	appropriate mark	16
+( ([ {lemma:/\Qapproval\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	approval voting	15
+( ([ {lemma:/\Qarchival\E/} ][ {lemma:/\Qmedia\E/} ]) )	GLOSSARY_TERM	archival media	14
+( ([ {lemma:/\Qassistive\E/} ][ {lemma:/\Qtechnology\E/} ]) )	GLOSSARY_TERM	assistive technology	20
+( ([ {lemma:/\Qasymmetric\E/} ][ {lemma:/\Qcryptography\E/} ]) )	GLOSSARY_TERM	asymmetric cryptography	23
+( ([ {lemma:/\Qaudio\E/} ][ {lemma:/\Qformat\E/} ]) )	GLOSSARY_TERM	audio format	12
+( ([ {lemma:/\Qaudit\E/} ]) )	GLOSSARY_TERM	audit	5
+( ([ {lemma:/\Qaudit\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	audit device	12
+( ([ {lemma:/\Qaudit\E/} ][ {lemma:/\Qtrail\E/} ]) )	GLOSSARY_TERM	audit trail	11
+( ([ {lemma:/\Qauthentication\E/} ]) )	GLOSSARY_TERM	authentication	14
+( ([ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	ballot	6
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qcount\E/} ][ {lemma:/\Qlogic\E/} ]) )	GLOSSARY_TERM	ballot counting logic	21
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qdatum\E/} ]) )	GLOSSARY_TERM	ballot data	11
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qdisplay\E/} ][ {lemma:/\Qformat\E/} ]) )	GLOSSARY_TERM	ballot display format	21
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qimage\E/} ]) )	GLOSSARY_TERM	ballot image	12
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qinstruction\E/} ]) )	GLOSSARY_TERM	ballot instructions	19
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qmanifest\E/} ]) )	GLOSSARY_TERM	ballot manifest	15
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qmark\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	ballot marking device	21
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qmark\E/} ][ {lemma:/\Qtarget\E/} ][ {lemma:/\Qarea\E/} ]) )	GLOSSARY_TERM	ballot marking target area	26
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qmeasure\E/} ]) )	GLOSSARY_TERM	ballot measure	14
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qmeasure\E/} ][ {lemma:/\Qoption\E/} ]) )	GLOSSARY_TERM	ballot measure option	21
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qon\E/} ][ {lemma:/\Qdemandâ\E/} ][ {lemma:/\Q®\E/} ]) )	GLOSSARY_TERM	ballot on demandÂ®	18
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qproduction\E/} ]) )	GLOSSARY_TERM	ballot production	17
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qrotation\E/} ]) )	GLOSSARY_TERM	ballot rotation	15
+( ([ {lemma:/\Qballot\E/} ][ {lemma:/\Qstyle\E/} ]) )	GLOSSARY_TERM	ballot style	12
+( ([ {lemma:/\Qbarcode\E/} ]) )	GLOSSARY_TERM	barcode	7
+( ([ {lemma:/\Qbarcode\E/} ][ {lemma:/\Qreader\E/} ]) )	GLOSSARY_TERM	barcode reader	14
+( ([ {lemma:/\Qbatch\E/} ]) )	GLOSSARY_TERM	batch	5
+( ([ {lemma:/\Qbatch\E/} ][ {lemma:/\Qfed\E/} ][ {lemma:/\Qscanner\E/} ]) )	GLOSSARY_TERM	batch fed scanner	17
+( ([ {lemma:/\Qbenchmark\E/} ]) )	GLOSSARY_TERM	benchmark	9
+( ([ {lemma:/\Qblank\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	blank ballot	12
+( ([ {lemma:/\Qcallable\E/} ][ {lemma:/\Qunit\E/} ]) )	GLOSSARY_TERM	callable unit	13
+( ([ {lemma:/\Qcandidate\E/} ]) )	GLOSSARY_TERM	candidate	9
+( ([ {lemma:/\Qcandidate\E/} ][ {lemma:/\Qoption\E/} ]) )	GLOSSARY_TERM	candidate option	16
+( ([ {lemma:/\Qcanvass\E/} ]) )	GLOSSARY_TERM	canvass	7
+( ([ {lemma:/\Qcast\E/} ]) )	GLOSSARY_TERM	cast	4
+( ([ {lemma:/\Qcast\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	cast ballot	11
+( ([ {lemma:/\Qcast\E/} ][ {lemma:/\Qvote\E/} ][ {lemma:/\Qrecord\E/} ]) )	GLOSSARY_TERM	cast vote record	16
+( ([ {lemma:/\Qcentral\E/} ][ {lemma:/\Qreporting\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	central reporting device	24
+( ([ {lemma:/\Qcertification\E/} ][ {lemma:/\Qtesting\E/} ]) )	GLOSSARY_TERM	certification testing	21
+( ([ {lemma:/\QCiphertext\E/} ]) )	GLOSSARY_TERM	Ciphertext	10
+( ([ {lemma:/\Qclosed\E/} ][ {lemma:/\Qprimary\E/} ]) )	GLOSSARY_TERM	closed primary	14
+( ([ {lemma:/\Qcombined\E/} ][ {lemma:/\Qprecinct\E/} ]) )	GLOSSARY_TERM	combined precinct	17
+( ([ {lemma:/\Qcommercial-off-the-shelf\E/} ]) )	GLOSSARY_TERM	commercial-off-the-shelf	24
+( ([ {lemma:/\QCommon\E/} ][ {lemma:/\QData\E/} ][ {lemma:/\QFormat\E/} ]) )	GLOSSARY_TERM	Common Data Format	18
+( ([ {lemma:/\Qcommon\E/} ][ {lemma:/\Qindustry\E/} ][ {lemma:/\Qformat\E/} ]) )	GLOSSARY_TERM	Common Industry Format	22
+( ([ {lemma:/\Qcomponent\E/} ]) )	GLOSSARY_TERM	component	9
+( ([ {lemma:/\Qconfidentiality\E/} ]) )	GLOSSARY_TERM	confidentiality	15
+( ([ {lemma:/\Qconfiguration\E/} ][ {lemma:/\Qmanagement\E/} ]) )	GLOSSARY_TERM	configuration management	24
+( ([ {lemma:/\Qconformance\E/} ]) )	GLOSSARY_TERM	conformance	11
+( ([ {lemma:/\Qconformance\E/} ][ {lemma:/\Qtesting\E/} ]) )	GLOSSARY_TERM	conformance testing	19
+( ([ {lemma:/\Qcontest\E/} ]) )	GLOSSARY_TERM	contest	7
+( ([ {lemma:/\Qcontest\E/} ][ {lemma:/\Qoption\E/} ]) )	GLOSSARY_TERM	contest option	14
+( ([ {lemma:/\Qcontest\E/} ][ {lemma:/\Qoption\E/} ][ {lemma:/\Qposition\E/} ]) )	GLOSSARY_TERM	contest option position	23
+( ([ {lemma:/\Qcontest\E/} ][ {lemma:/\Qoption\E/} ][ {lemma:/\Qvote\E/} ]) )	GLOSSARY_TERM	contest option vote	19
+( ([ {lemma:/\Qcontest\E/} ][ {lemma:/\Qselection\E/} ]) )	GLOSSARY_TERM	contest selection	17
+( ([ {lemma:/\Qcore\E/} ][ {lemma:/\Qlogic\E/} ]) )	GLOSSARY_TERM	core logic	10
+( ([ {lemma:/\Qcorrective\E/} ][ {lemma:/\Qaction\E/} ]) )	GLOSSARY_TERM	corrective action	17
+( ([ {lemma:/\Qcount\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	counted ballot	14
+( ([ {lemma:/\Qcross-party\E/} ][ {lemma:/\Qendorsement\E/} ]) )	GLOSSARY_TERM	cross-party endorsement	23
+( ([ {lemma:/\Qcryptographic\E/} ][ {lemma:/\Qend-to-end\E/} ][ {lemma:/\Qvoting\E/} ][ {lemma:/\Qsystem\E/} ]) )	GLOSSARY_TERM	cryptographic end-to-end voting system	38
+( ([ {lemma:/\Qcryptographic\E/} ][ {lemma:/\Qhash\E/} ]) )	GLOSSARY_TERM	cryptographic hash	18
+( ([ {lemma:/\Qcryptographic\E/} ][ {lemma:/\Qkey\E/} ]) )	GLOSSARY_TERM	cryptographic key	17
+( ([ {lemma:/\Qcryptography\E/} ]) )	GLOSSARY_TERM	cryptography	12
+( ([ {lemma:/\Qcumulative\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	cumulative voting	17
+( ([ {lemma:/\Qcybersecurity\E/} ]) )	GLOSSARY_TERM	cybersecurity	13
+( ([ {lemma:/\Qdecertification\E/} ]) )	GLOSSARY_TERM	decertification	15
+( ([ {lemma:/\Qdecryption\E/} ]) )	GLOSSARY_TERM	decryption	10
+( ([ {lemma:/\Qdefense-in-depth\E/} ]) )	GLOSSARY_TERM	defense-in-depth	16
+( ([ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	device	6
+( ([ {lemma:/\Qdigital\E/} ][ {lemma:/\Qcertificate\E/} ]) )	GLOSSARY_TERM	digital certificate	19
+( ([ {lemma:/\Qdigital\E/} ][ {lemma:/\Qsignature\E/} ]) )	GLOSSARY_TERM	digital signature	17
+( ([ {lemma:/\Qdirect\E/} ][ {lemma:/\Qrecording\E/} ][ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qvoting\E/} ][ {lemma:/\Qmachine\E/} ]) )	GLOSSARY_TERM	direct recording electronic voting machine	42
+( ([ {lemma:/\Qdynamic\E/} ][ {lemma:/\Qpassword\E/} ]) )	GLOSSARY_TERM	dynamic password	16
+( ([ {lemma:/\Qeac\E/} ]) )	GLOSSARY_TERM	EAC	3
+( ([ {lemma:/\Qearly\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	early voting	12
+( ([ {lemma:/\Qearly\E/} ][ {lemma:/\Qvoting\E/} ][ {lemma:/\Qcenter\E/} ]) )	GLOSSARY_TERM	early voting center	19
+( ([ {lemma:/\Qelect\E/} ][ {lemma:/\Qoffice\E/} ]) )	GLOSSARY_TERM	elected office	14
+( ([ {lemma:/\Qelection\E/} ]) )	GLOSSARY_TERM	election	8
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qcertification\E/} ]) )	GLOSSARY_TERM	election certification	22
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qday\E/} ]) )	GLOSSARY_TERM	election day	12
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qdefinition\E/} ]) )	GLOSSARY_TERM	election definition	19
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qdefinition\E/} ][ {lemma:/\Qmedium\E/} ]) )	GLOSSARY_TERM	election definition medium	26
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qdistrict\E/} ]) )	GLOSSARY_TERM	election district	17
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qjurisdiction\E/} ]) )	GLOSSARY_TERM	election jurisdiction	21
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qmanagement\E/} ][ {lemma:/\Qsystem\E/} ]) )	GLOSSARY_TERM	election management system	26
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qofficial\E/} ]) )	GLOSSARY_TERM	election official	17
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qprogramming\E/} ]) )	GLOSSARY_TERM	election programming	20
+( ([ {lemma:/\QElection\E/} ][ {lemma:/\Qresult\E/} ][ {lemma:/\QReporting\E/} ][ {lemma:/\QSystem\E/} ]) )	GLOSSARY_TERM	Election Results Reporting System	33
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qsystem\E/} ]) )	GLOSSARY_TERM	election system	15
+( ([ {lemma:/\Qelection\E/} ][ {lemma:/\Qworker\E/} ]) )	GLOSSARY_TERM	election worker	15
+( ([ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qdelivery\E/} ]) )	GLOSSARY_TERM	electronic ballot delivery	26
+( ([ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qinterface\E/} ]) )	GLOSSARY_TERM	electronic ballot interface	27
+( ([ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qreturn\E/} ]) )	GLOSSARY_TERM	electronic ballot return	24
+( ([ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	electronic device	17
+( ([ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qpoll\E/} ][ {lemma:/\Qbook\E/} ]) )	GLOSSARY_TERM	electronic poll book	20
+( ([ {lemma:/\Qelectronic\E/} ][ {lemma:/\Qvoter\E/} ][ {lemma:/\Qinterface\E/} ]) )	GLOSSARY_TERM	electronic voter interface	26
+( ([ {lemma:/\Qeligible\E/} ][ {lemma:/\Qvoter\E/} ]) )	GLOSSARY_TERM	eligible voters	15
+( ([ {lemma:/\Qencryption\E/} ]) )	GLOSSARY_TERM	encryption	10
+( ([ {lemma:/\Qendorsement\E/} ]) )	GLOSSARY_TERM	endorsement	11
+( ([ {lemma:/\Qenhance\E/} ][ {lemma:/\Qvisual\E/} ][ {lemma:/\Qformat\E/} ]) )	GLOSSARY_TERM	enhanced visual format	22
+( ([ {lemma:/\Qerror\E/} ][ {lemma:/\Qcorrection\E/} ][ {lemma:/\Qcode\E/} ]) )	GLOSSARY_TERM	error correction code	21
+( ([ {lemma:/\Qerror\E/} ][ {lemma:/\Qrate\E/} ]) )	GLOSSARY_TERM	error rate	10
+( ([ {lemma:/\Qescalation\E/} ][ {lemma:/\Qof\E/} ][ {lemma:/\Qprivilege\E/} ]) )	GLOSSARY_TERM	escalation of privilege	23
+( ([ {lemma:/\Qexhaust\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	exhausted ballot	16
+( ([ {lemma:/\Qexpected\E/} ][ {lemma:/\Qmark\E/} ]) )	GLOSSARY_TERM	expected mark	13
+( ([ {lemma:/\QExtensible\E/} ][ {lemma:/\QMarkup\E/} ][ {lemma:/\QLanguage\E/} ]) )	GLOSSARY_TERM	Extensible Markup Language	26
+( ([ {lemma:/\Qextraneous\E/} ][ {lemma:/\Qmark\E/} ]) )	GLOSSARY_TERM	extraneous mark	15
+( ([ {lemma:/\Qfailure\E/} ]) )	GLOSSARY_TERM	failure	7
+( ([ {lemma:/\Qfailure\E/} ][ {lemma:/\Qrate\E/} ]) )	GLOSSARY_TERM	failure rate	12
+( ([ {lemma:/\Qfault\E/} ]) )	GLOSSARY_TERM	fault	5
+( ([ {lemma:/\Qfault-tolerant\E/} ]) )	GLOSSARY_TERM	fault-tolerant	14
+( ([ {lemma:/\QFederal\E/} ][ {lemma:/\QInformation\E/} ][ {lemma:/\QProcessing\E/} ][ {lemma:/\QStandards\E/} ]) )	GLOSSARY_TERM	Federal Information Processing Standards	40
+( ([ {lemma:/\Qfinding\E/} ]) )	GLOSSARY_TERM	finding	7
+( ([ {lemma:/\Qfirewall\E/} ]) )	GLOSSARY_TERM	firewall	8
+( ([ {lemma:/\Qfirmware\E/} ]) )	GLOSSARY_TERM	firmware	8
+( ([ {lemma:/\Qfunctional\E/} ][ {lemma:/\QConfiguration\E/} ][ {lemma:/\QAudit\E/} ]) )	GLOSSARY_TERM	Functional Configuration Audit	30
+( ([ {lemma:/\Qfunctional\E/} ][ {lemma:/\Qtest\E/} ]) )	GLOSSARY_TERM	functional test	15
+( ([ {lemma:/\Qgeneral\E/} ][ {lemma:/\Qelection\E/} ]) )	GLOSSARY_TERM	general election	16
+( ([ {lemma:/\QGeographical\E/} ][ {lemma:/\QInformation\E/} ][ {lemma:/\QSystem\E/} ]) )	GLOSSARY_TERM	Geographical Information System	31
+( ([ {lemma:/\Qgeopolitical\E/} ][ {lemma:/\Qunit\E/} ]) )	GLOSSARY_TERM	Geopolitical Unit	17
+( ([ {lemma:/\Qhardware\E/} ]) )	GLOSSARY_TERM	hardware	8
+( ([ {lemma:/\Qhelp\E/} ][ {lemma:/\QAmerica\E/} ][ {lemma:/\Qvote\E/} ][ {lemma:/\QAct\E/} ]) )	GLOSSARY_TERM	Help America Vote Act	21
+( ([ {lemma:/\Qimplementation\E/} ][ {lemma:/\Qstatement\E/} ]) )	GLOSSARY_TERM	implementation statement	24
+( ([ {lemma:/\Qin-person\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	in-person voting	16
+( ([ {lemma:/\Qindependently\E/} ]) )	GLOSSARY_TERM	independently	13
+( ([ {lemma:/\Qinformation\E/} ][ {lemma:/\Qsecurity\E/} ]) )	GLOSSARY_TERM	information security	20
+( ([ {lemma:/\Qinspection\E/} ]) )	GLOSSARY_TERM	inspection	10
+( ([ {lemma:/\Qinteraction\E/} ][ {lemma:/\Qmode\E/} ]) )	GLOSSARY_TERM	interaction mode	16
+( ([ {lemma:/\Qinteroperability\E/} ]) )	GLOSSARY_TERM	interoperability	16
+( ([ {lemma:/\QIntrusion\E/} ][ {lemma:/\Qdetection\E/} ][ {lemma:/\Qsystem\E/} ]) )	GLOSSARY_TERM	Intrusion Detection System	26
+( ([ {lemma:/\QIntrusion\E/} ][ {lemma:/\QPrevention\E/} ][ {lemma:/\QSystem\E/} ]) )	GLOSSARY_TERM	Intrusion Prevention System	27
+( ([ {lemma:/\Qkey\E/} ][ {lemma:/\Qmanagement\E/} ]) )	GLOSSARY_TERM	key management	14
+( ([ {lemma:/\Qlife\E/} ][ {lemma:/\Qcycle\E/} ]) )	GLOSSARY_TERM	life cycle	10
+( ([ {lemma:/\Qlocality\E/} ]) )	GLOSSARY_TERM	locality	8
+( ([ {lemma:/\Qlogic\E/} ][ {lemma:/\Qand\E/} ][ {lemma:/\Qaccuracy\E/} ][ {lemma:/\Qtesting\E/} ]) )	GLOSSARY_TERM	logic and accuracy testing	26
+( ([ {lemma:/\Qlogic\E/} ][ {lemma:/\Qdefect\E/} ]) )	GLOSSARY_TERM	logic defect	12
+( ([ {lemma:/\Qlogical\E/} ][ {lemma:/\Qcorrectness\E/} ]) )	GLOSSARY_TERM	logical correctness	19
+( ([ {lemma:/\Qlow/no\E/} ][ {lemma:/\Qdexterity\E/} ][ {lemma:/\Qmode\E/} ]) )	GLOSSARY_TERM	low/no dexterity mode	21
+( ([ {lemma:/\Qmachine\E/} ][ {lemma:/\Qunreadable\E/} ][ {lemma:/\Qmark\E/} ]) )	GLOSSARY_TERM	machine unreadable mark	23
+( ([ {lemma:/\Qmachine-readable\E/} ][ {lemma:/\Qmark\E/} ]) )	GLOSSARY_TERM	machine-readable mark	21
+( ([ {lemma:/\Qmalware\E/} ]) )	GLOSSARY_TERM	malware	7
+( ([ {lemma:/\Qmanually-marked\E/} ][ {lemma:/\Qpaper\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	manually-marked paper ballot	28
+( ([ {lemma:/\Qmanufacturer\E/} ]) )	GLOSSARY_TERM	manufacturer	12
+( ([ {lemma:/\Qmarginally\E/} ][ {lemma:/\Qmachine-readable\E/} ][ {lemma:/\Qmark\E/} ]) )	GLOSSARY_TERM	marginally machine-readable mark	32
+( ([ {lemma:/\Qmarked\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	marked ballot	13
+( ([ {lemma:/\Qmilitary\E/} ][ {lemma:/\Qvoter\E/} ]) )	GLOSSARY_TERM	military voter	14
+( ([ {lemma:/\Qmisfeed\E/} ][ {lemma:/\Qrate\E/} ]) )	GLOSSARY_TERM	misfeed rate	12
+( ([ {lemma:/\Qmodule\E/} ]) )	GLOSSARY_TERM	module	6
+( ([ {lemma:/\Qmulti-factor\E/} ][ {lemma:/\Qauthentication\E/} ]) )	GLOSSARY_TERM	multi-factor authentication	27
+( ([ {lemma:/\Qmulti-seat\E/} ][ {lemma:/\Qcontest\E/} ]) )	GLOSSARY_TERM	multi-seat contest	18
+( ([ {lemma:/\Qmunicipality\E/} ]) )	GLOSSARY_TERM	municipality	12
+( ([ {lemma:/\Qn-of-m\E/} ]) )	GLOSSARY_TERM	N-of-M	6
+( ([ {lemma:/\Qnational\E/} ][ {lemma:/\Qcertification\E/} ][ {lemma:/\Qtest\E/} ][ {lemma:/\Qreport\E/} ]) )	GLOSSARY_TERM	national certification test report	34
+( ([ {lemma:/\QNational\E/} ][ {lemma:/\QInstitute\E/} ][ {lemma:/\Qof\E/} ][ {lemma:/\QStandards\E/} ][ {lemma:/\Qand\E/} ][ {lemma:/\QTechnology\E/} ]) )	GLOSSARY_TERM	National Institute of Standards and Technology	46
+( ([ {lemma:/\Qnon-party-specific\E/} ][ {lemma:/\Qcontest\E/} ]) )	GLOSSARY_TERM	non-party-specific contest	26
+( ([ {lemma:/\Qnon-user-serviceable\E/} ][ {lemma:/\Qfailure\E/} ]) )	GLOSSARY_TERM	non-user-serviceable failure	28
+( ([ {lemma:/\Qnonpartisan\E/} ][ {lemma:/\Qoffice\E/} ]) )	GLOSSARY_TERM	nonpartisan office	18
+( ([ {lemma:/\Qnonpartisan\E/} ][ {lemma:/\Qprimary\E/} ]) )	GLOSSARY_TERM	nonpartisan primary	19
+( ([ {lemma:/\Qnonvolatile\E/} ][ {lemma:/\Qmemory\E/} ]) )	GLOSSARY_TERM	nonvolatile memory	18
+( ([ {lemma:/\Qnotice\E/} ][ {lemma:/\Qof\E/} ][ {lemma:/\Qclarification\E/} ]) )	GLOSSARY_TERM	notice of clarification	23
+( ([ {lemma:/\Qobservational\E/} ][ {lemma:/\Qtest\E/} ]) )	GLOSSARY_TERM	observational test	18
+( ([ {lemma:/\Qoffice\E/} ]) )	GLOSSARY_TERM	office	6
+( ([ {lemma:/\Qopen\E/} ][ {lemma:/\Qprimary\E/} ]) )	GLOSSARY_TERM	open primary	12
+( ([ {lemma:/\Qopen\E/} ][ {lemma:/\Qsource\E/} ]) )	GLOSSARY_TERM	open source	11
+( ([ {lemma:/\Qoptical\E/} ][ {lemma:/\Qscan\E/} ]) )	GLOSSARY_TERM	optical scan	12
+( ([ {lemma:/\Qoverseas\E/} ][ {lemma:/\Qvoter\E/} ]) )	GLOSSARY_TERM	overseas voter	14
+( ([ {lemma:/\Qovervote\E/} ]) )	GLOSSARY_TERM	overvote	8
+( ([ {lemma:/\Qpaper\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	paper ballot	12
+( ([ {lemma:/\Qpaper\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qsheet\E/} ]) )	GLOSSARY_TERM	paper ballot sheet	18
+( ([ {lemma:/\Qpaper\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qside\E/} ]) )	GLOSSARY_TERM	paper ballot side	17
+( ([ {lemma:/\Qpartisan\E/} ][ {lemma:/\Qoffice\E/} ]) )	GLOSSARY_TERM	partisan office	15
+( ([ {lemma:/\Qpartisan\E/} ][ {lemma:/\Qprimary\E/} ]) )	GLOSSARY_TERM	partisan primary	16
+( ([ {lemma:/\Qparty-specific\E/} ][ {lemma:/\Qcontest\E/} ]) )	GLOSSARY_TERM	party-specific contest	22
+( ([ {lemma:/\Qpattern\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	pattern voting	14
+( ([ {lemma:/\Qpenetration\E/} ][ {lemma:/\Qtesting\E/} ]) )	GLOSSARY_TERM	penetration testing	19
+( ([ {lemma:/\Qpersonal\E/} ][ {lemma:/\Qassistive\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	personal assistive device	25
+( ([ {lemma:/\QPersonal\E/} ][ {lemma:/\QIdentifiable\E/} ][ {lemma:/\QInformation\E/} ]) )	GLOSSARY_TERM	Personal Identifiable Information	33
+( ([ {lemma:/\Qphysical\E/} ][ {lemma:/\QConfiguration\E/} ][ {lemma:/\QAudit\E/} ]) )	GLOSSARY_TERM	Physical Configuration Audit	28
+( ([ {lemma:/\Qpolitical\E/} ][ {lemma:/\Qsubdivision\E/} ]) )	GLOSSARY_TERM	political subdivision	21
+( ([ {lemma:/\Qpolling\E/} ][ {lemma:/\Qlocation\E/} ]) )	GLOSSARY_TERM	polling location	16
+( ([ {lemma:/\Qpolling\E/} ][ {lemma:/\Qplace\E/} ]) )	GLOSSARY_TERM	polling place	13
+( ([ {lemma:/\Qpost-election\E/} ][ {lemma:/\Qaudit\E/} ]) )	GLOSSARY_TERM	post-election audit	19
+( ([ {lemma:/\Qprecinct\E/} ]) )	GLOSSARY_TERM	precinct	8
+( ([ {lemma:/\Qprecinct\E/} ][ {lemma:/\Qcount\E/} ]) )	GLOSSARY_TERM	precinct count	14
+( ([ {lemma:/\Qprecinct\E/} ][ {lemma:/\Qsplit\E/} ]) )	GLOSSARY_TERM	precinct split	14
+( ([ {lemma:/\Qpresentable\E/} ][ {lemma:/\Qballot\E/} ][ {lemma:/\Qstyle\E/} ]) )	GLOSSARY_TERM	presentable ballot style	24
+( ([ {lemma:/\Qpresidential\E/} ][ {lemma:/\Qprimary\E/} ][ {lemma:/\Qelection\E/} ]) )	GLOSSARY_TERM	presidential primary election	29
+( ([ {lemma:/\Qprimary\E/} ][ {lemma:/\Qelection\E/} ]) )	GLOSSARY_TERM	primary election	16
+( ([ {lemma:/\Qprivacy\E/} ]) )	GLOSSARY_TERM	privacy	7
+( ([ {lemma:/\Qprivacy\E/} ][ {lemma:/\Qenclosure\E/} ]) )	GLOSSARY_TERM	privacy enclosure	17
+( ([ {lemma:/\Qprivate\E/} ][ {lemma:/\Qkey\E/} ]) )	GLOSSARY_TERM	private key	11
+( ([ {lemma:/\Qproduct\E/} ][ {lemma:/\Qstandard\E/} ]) )	GLOSSARY_TERM	product standard	16
+( ([ {lemma:/\Qprogram\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	programmed device	17
+( ([ {lemma:/\Qproportional\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	proportional voting	19
+( ([ {lemma:/\Qprovisional\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	provisional ballot	18
+( ([ {lemma:/\Qpublic\E/} ][ {lemma:/\Qkey\E/} ]) )	GLOSSARY_TERM	public key	10
+( ([ {lemma:/\QPublic\E/} ][ {lemma:/\QKey\E/} ][ {lemma:/\QInfrastructure\E/} ]) )	GLOSSARY_TERM	Public Key Infrastructure	25
+( ([ {lemma:/\Qpublic\E/} ][ {lemma:/\Qtest\E/} ]) )	GLOSSARY_TERM	public test	11
+( ([ {lemma:/\QQR\E/} ][ {lemma:/\QCode\E/} ]) )	GLOSSARY_TERM	QR Code	7
+( ([ {lemma:/\Qrange\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	range voting	12
+( ([ {lemma:/\Qrank\E/} ][ {lemma:/\Qchoice\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	ranked choice voting	20
+( ([ {lemma:/\Qread\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	read ballot	11
+( ([ {lemma:/\Qrecall\E/} ][ {lemma:/\Qissue\E/} ][ {lemma:/\Qwith\E/} ][ {lemma:/\Qoption\E/} ]) )	GLOSSARY_TERM	recall issue with options	25
+( ([ {lemma:/\Qrecallable\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	recallable ballot	17
+( ([ {lemma:/\Qrecertification\E/} ]) )	GLOSSARY_TERM	recertification	15
+( ([ {lemma:/\Qrecord\E/} ]) )	GLOSSARY_TERM	record	6
+( ([ {lemma:/\Qrecord\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	recorded ballot	15
+( ([ {lemma:/\Qrecount\E/} ]) )	GLOSSARY_TERM	recount	7
+( ([ {lemma:/\Qreport\E/} ]) )	GLOSSARY_TERM	report	6
+( ([ {lemma:/\Qreport\E/} ][ {lemma:/\Qtotal\E/} ][ {lemma:/\Qerror\E/} ][ {lemma:/\Qrate\E/} ]) )	GLOSSARY_TERM	report total error rate	23
+( ([ {lemma:/\Qreport\E/} ][ {lemma:/\Qunit\E/} ]) )	GLOSSARY_TERM	reporting unit	14
+( ([ {lemma:/\Qreproducibility\E/} ]) )	GLOSSARY_TERM	reproducibility	15
+( ([ {lemma:/\Qresidual\E/} ][ {lemma:/\Qvote\E/} ]) )	GLOSSARY_TERM	residual vote	13
+( ([ {lemma:/\Qreview\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	reviewed ballot	15
+( ([ {lemma:/\Qrisk\E/} ][ {lemma:/\Qassessment\E/} ]) )	GLOSSARY_TERM	risk assessment	15
+( ([ {lemma:/\Qrisk-limiting\E/} ][ {lemma:/\Qaudit\E/} ]) )	GLOSSARY_TERM	risk-limiting audit	19
+( ([ {lemma:/\Qrunoff\E/} ][ {lemma:/\Qelection\E/} ]) )	GLOSSARY_TERM	runoff election	15
+( ([ {lemma:/\Qseat\E/} ]) )	GLOSSARY_TERM	seat	4
+( ([ {lemma:/\Qsecond\E/} ][ {lemma:/\Qchance\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	second chance voting	20
+( ([ {lemma:/\Qsecurity\E/} ][ {lemma:/\Qanalysis\E/} ]) )	GLOSSARY_TERM	security analysis	17
+( ([ {lemma:/\Qsecurity\E/} ][ {lemma:/\Qcontrol\E/} ]) )	GLOSSARY_TERM	security controls	17
+( ([ {lemma:/\Qsecurity\E/} ][ {lemma:/\Qstrength\E/} ]) )	GLOSSARY_TERM	security strength	17
+( ([ {lemma:/\Qsoftware\E/} ][ {lemma:/\Qindependence\E/} ]) )	GLOSSARY_TERM	software independence	21
+( ([ {lemma:/\Qsource\E/} ][ {lemma:/\Qcode\E/} ]) )	GLOSSARY_TERM	source code	11
+( ([ {lemma:/\Qspear\E/} ][ {lemma:/\Qphishing\E/} ]) )	GLOSSARY_TERM	spear phishing	14
+( ([ {lemma:/\Qspecial\E/} ][ {lemma:/\Qelection\E/} ]) )	GLOSSARY_TERM	special election	16
+( ([ {lemma:/\Qspoil\E/} ]) )	GLOSSARY_TERM	spoil	5
+( ([ {lemma:/\Qspoil\E/} ][ {lemma:/\Qballot\E/} ]) )	GLOSSARY_TERM	spoiled ballot	14
+( ([ {lemma:/\Qstandard\E/} ]) )	GLOSSARY_TERM	standard	8
+( ([ {lemma:/\Qstraight\E/} ][ {lemma:/\Qparty\E/} ][ {lemma:/\Qoverride\E/} ]) )	GLOSSARY_TERM	straight party override	23
+( ([ {lemma:/\Qstraight\E/} ][ {lemma:/\Qparty\E/} ][ {lemma:/\Qvoting\E/} ]) )	GLOSSARY_TERM	straight party voting	21
+( ([ {lemma:/\Qstreet\E/} ][ {lemma:/\Qsegment\E/} ][ {lemma:/\Qdatum\E/} ]) )	GLOSSARY_TERM	street segment data	19
+( ([ {lemma:/\Qsupport\E/} ][ {lemma:/\Qsoftware\E/} ]) )	GLOSSARY_TERM	support software	16
+( ([ {lemma:/\Qsymmetric\E/} ][ {lemma:/\Qcryptography\E/} ]) )	GLOSSARY_TERM	symmetric cryptography	22
+( ([ {lemma:/\Qsystem\E/} ][ {lemma:/\Qextent\E/} ]) )	GLOSSARY_TERM	system extent	13
+( ([ {lemma:/\Qt-coil\E/} ]) )	GLOSSARY_TERM	t-coil	6
+( ([ {lemma:/\Qtabulate\E/} ]) )	GLOSSARY_TERM	tabulate	8
+( ([ {lemma:/\Qtactile\E/} ][ {lemma:/\Qcontrol\E/} ]) )	GLOSSARY_TERM	tactile controls	16
+( ([ {lemma:/\Qtechnical\E/} ][ {lemma:/\Qdatum\E/} ][ {lemma:/\Qpackage\E/} ]) )	GLOSSARY_TERM	technical data package	22
+( ([ {lemma:/\Qtest\E/} ]) )	GLOSSARY_TERM	test	4
+( ([ {lemma:/\Qtest\E/} ][ {lemma:/\Qdeck\E/} ]) )	GLOSSARY_TERM	test deck	9
+( ([ {lemma:/\Qtest\E/} ][ {lemma:/\Qmethod\E/} ]) )	GLOSSARY_TERM	test method	11
+( ([ {lemma:/\Qtest\E/} ][ {lemma:/\Qplan\E/} ]) )	GLOSSARY_TERM	test plan	9
+( ([ {lemma:/\Qtest\E/} ][ {lemma:/\Qsuite\E/} ]) )	GLOSSARY_TERM	test suite	10
+( ([ {lemma:/\Qthird-party\E/} ][ {lemma:/\Qlogic\E/} ]) )	GLOSSARY_TERM	third-party logic	17
+( ([ {lemma:/\Qtoken\E/} ]) )	GLOSSARY_TERM	token	5
+( ([ {lemma:/\Qtouch\E/} ][ {lemma:/\Qscreen\E/} ][ {lemma:/\Qvoting\E/} ][ {lemma:/\Qmachine\E/} ]) )	GLOSSARY_TERM	touch screen voting machine	27
+( ([ {lemma:/\Qtown\E/} ]) )	GLOSSARY_TERM	town	4
+( ([ {lemma:/\Qtownship\E/} ]) )	GLOSSARY_TERM	township	8
+( ([ {lemma:/\Qundervote\E/} ]) )	GLOSSARY_TERM	undervote	9
+( ([ {lemma:/\Quniformed\E/} ][ {lemma:/\Qand\E/} ][ {lemma:/\Qoverseas\E/} ][ {lemma:/\QCitizens\E/} ][ {lemma:/\QAbsentee\E/} ][ {lemma:/\QVoting\E/} ][ {lemma:/\QAct\E/} ]) )	GLOSSARY_TERM	Uniformed and Overseas Citizens Absentee Voting Act	51
+( ([ {lemma:/\QUOCAVA\E/} ][ {lemma:/\Qvoter\E/} ]) )	GLOSSARY_TERM	UOCAVA voter	12
+( ([ {lemma:/\Qusability\E/} ]) )	GLOSSARY_TERM	usability	9
+( ([ {lemma:/\Qusability\E/} ][ {lemma:/\Qtesting\E/} ]) )	GLOSSARY_TERM	usability testing	17
+( ([ {lemma:/\Quser-serviceable\E/} ][ {lemma:/\Qfailure\E/} ]) )	GLOSSARY_TERM	user-serviceable failure	24
+( ([ {lemma:/\Qvalid\E/} ][ {lemma:/\Qvote\E/} ]) )	GLOSSARY_TERM	valid vote	10
+( ([ {lemma:/\Qvalidation\E/} ]) )	GLOSSARY_TERM	validation	10
+( ([ {lemma:/\Qvisual\E/} ][ {lemma:/\Qformat\E/} ]) )	GLOSSARY_TERM	visual format	13
+( ([ {lemma:/\Qvote\E/} ]) )	GLOSSARY_TERM	vote	4
+( ([ {lemma:/\Qvote\E/} ][ {lemma:/\Qcenter\E/} ]) )	GLOSSARY_TERM	vote center	11
+( ([ {lemma:/\Qvote\E/} ][ {lemma:/\Qfor\E/} ][ {lemma:/\Qn\E/} ][ {lemma:/\Qof\E/} ][ {lemma:/\Qm\E/} ]) )	GLOSSARY_TERM	vote for N of M	15
+( ([ {lemma:/\Qvote-by-mail\E/} ]) )	GLOSSARY_TERM	vote-by-mail	12
+( ([ {lemma:/\Qvote-capture\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	vote-capture device	19
+( ([ {lemma:/\Qvoter\E/} ]) )	GLOSSARY_TERM	voter	5
+( ([ {lemma:/\Qvoter\E/} ][ {lemma:/\Qface\E/} ][ {lemma:/\Qscanner\E/} ]) )	GLOSSARY_TERM	voter facing scanner	20
+( ([ {lemma:/\Qvoter\E/} ][ {lemma:/\Qintent\E/} ]) )	GLOSSARY_TERM	voter intent	12
+( ([ {lemma:/\Qvoter\E/} ][ {lemma:/\Qintent\E/} ][ {lemma:/\Qstandard\E/} ]) )	GLOSSARY_TERM	voter intent standard	21
+( ([ {lemma:/\Qvoter\E/} ][ {lemma:/\Qverifiable\E/} ]) )	GLOSSARY_TERM	voter verifiable	16
+( ([ {lemma:/\Qvoter\E/} ][ {lemma:/\Qverification\E/} ]) )	GLOSSARY_TERM	voter verification	18
+( ([ {lemma:/\Qvoter\E/} ][ {lemma:/\Qverify\E/} ][ {lemma:/\Qpaper\E/} ][ {lemma:/\Qaudit\E/} ][ {lemma:/\Qtrail\E/} ]) )	GLOSSARY_TERM	voter verified paper audit trail	32
+( ([ {lemma:/\Qvoting\E/} ][ {lemma:/\Qdevice\E/} ]) )	GLOSSARY_TERM	voting device	13
+( ([ {lemma:/\Qvoting\E/} ][ {lemma:/\Qprocess\E/} ]) )	GLOSSARY_TERM	voting process	14
+( ([ {lemma:/\Qvoting\E/} ][ {lemma:/\Qsession\E/} ]) )	GLOSSARY_TERM	voting session	14
+( ([ {lemma:/\Qvoting\E/} ][ {lemma:/\Qstation\E/} ]) )	GLOSSARY_TERM	voting station	14
+( ([ {lemma:/\Qvoting\E/} ][ {lemma:/\Qsystem\E/} ]) )	GLOSSARY_TERM	voting system	13
+( ([ {lemma:/\Qvoting\E/} ][ {lemma:/\Qsystem\E/} ][ {lemma:/\Qsoftware\E/} ]) )	GLOSSARY_TERM	voting system software	22
+( ([ {lemma:/\QVoting\E/} ][ {lemma:/\QSystem\E/} ][ {lemma:/\QTest\E/} ][ {lemma:/\QLab\E/} ]) )	GLOSSARY_TERM	Voting System Test Lab	22
+( ([ {lemma:/\Qwhite\E/} ][ {lemma:/\Qbox\E/} ][ {lemma:/\Qtesting\E/} ]) )	GLOSSARY_TERM	white box testing	17
+( ([ {lemma:/\Qwi-fi\E/} ]) )	GLOSSARY_TERM	Wi-Fi	5
+( ([ {lemma:/\Qwide\E/} ][ {lemma:/\Qarea\E/} ][ {lemma:/\QNetwork\E/} ]) )	GLOSSARY_TERM	Wide Area Network	17
+( ([ {lemma:/\Qwireless\E/} ]) )	GLOSSARY_TERM	wireless	8
+( ([ {lemma:/\Qwrite-in\E/} ][ {lemma:/\Qoption\E/} ]) )	GLOSSARY_TERM	write-in option	15
