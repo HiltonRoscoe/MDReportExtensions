@@ -5,12 +5,16 @@ import com.nomagic.magicreport.engine.Tool;
 import org.apache.commons.beanutils.PropertyUtils;
 
 /**
- * Hello world!
- *
+ * Sorts classes by their names
+ * Used by older version of the Glossary.
  */
 public class Sorter extends Tool {
     private static final long serialVersionUID = 1L;
-
+/**
+ * Sorts classes by their name, in decending order. 
+ * @param collection Collection of classes
+ * @return A sorted collection of classes
+ */
     public static List sortByLength(List collection) {
 
         collection.sort((o1, o2) -> {

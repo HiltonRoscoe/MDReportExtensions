@@ -4,10 +4,19 @@ import com.nomagic.magicreport.engine.Tool;
 import com.overzealous.remark.Options;
 import com.overzealous.remark.Remark;
 
+/**
+ * Provides conversion utilities from HTML to Markdown, with additional
+ * facilities to handle MagicDraw's uri scheme.
+ */
 public class HTMLHelper extends Tool {
-
     private static final long serialVersionUID = 1L;
 
+    /**
+     * Converts an HTML fragment into an equivilent Markdown version.
+     * 
+     * @param htmlString An HTML fragment
+     * @return A GFM-style Markdown fragment
+     */
     public static String htmlToMarkdown(String htmlString) {
         try {
             Options options = Options.github();
@@ -19,7 +28,12 @@ public class HTMLHelper extends Tool {
             return e.toString();
         }
     }
-
+    /**
+     * Converts an MagicDraw HTML fragment into an equivilent Markdown version.
+     * 
+     * @param htmlString An HTML fragment
+     * @return A GFM-style Markdown fragment
+     */
     public static String mdhtmlToMarkdown(String htmlString) {
         try {
             Options options = Options.github();
