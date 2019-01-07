@@ -36,6 +36,12 @@ public class Language extends Tool {
         return morphology.stem(s);
     }
 
+    public static String[] getWords(String s) {
+        Document doc = new Document(s);
+        // a list of strings in the class' name
+        return doc.sentence(0).words().toArray(new String[0]);
+    }
+
     /**
      * Return an array of lemmas found in a String
      * 
