@@ -80,13 +80,15 @@ public class NLPLanguage extends Tool {
    * @param currentTerm  The name of the current term being annotated
    * @return A permitted list of mentions
    */
-  public static List<CoreEntityMention> getPermittedMentions(List<CoreEntityMention> termMentions, String currentTerm) {
+  public static List<CoreEntityMention> getPermittedMentions(List<CoreEntityMention> termMentions, String currentTerm,
+      String[] skipWords) {
     // controls whether we allow multiple mentions
     boolean firstMentionsOnly = true;
 
     // the entity mentions are our terms matched in definition
     // need to detect them as we write out the sentence.
     List<CoreEntityMention> permittedMentions = new LinkedList<CoreEntityMention>();
+    outerLoop:
     for (CoreEntityMention termMention : termMentions) {
       // we are assuming the list is in reading order!
       // only include terms we tagged (i.e. ignore statistical models)
@@ -103,23 +105,35 @@ public class NLPLanguage extends Tool {
         if (firstMentionsOnly) {
           // check if we don't already have a mention.
           if (permittedMentions.stream().anyMatch(p -> p.text().equals(termMention.text()))) {
-            // System.out.println("[NER] already matched " + termMention.text());
-          } else {
-            permittedMentions.add(termMention);
+            continue;
           }
         }
+
+        if (skipWords != null) {
+          for (String skipTerm : skipWords) {
+            if (termMention.coreMap()
+                    .get(NormalizedNamedEntityTagAnnotation.class).toString().equals(skipTerm)) {
+              continue outerLoop;
+            }
+          }
+        }
+
+        // if we got this far, add the term
+        permittedMentions.add(termMention);
+
       }
     }
     return permittedMentions;
   }
 
   /**
-   * Entry point for MagicDraw report 
+   * Entry point for MagicDraw report
+   * 
    * @param text        The corpus to annotate
    * @param currentTerm The current term under annotation
    * @return The annotated string, in GFM form
    */
-  public static String runNLP(String text, String currentTerm, String mappingFile) {
+  public static String runNLP(String text, String currentTerm, String mappingFile, List<String> skipWords) {
     StanfordCoreNLP pipeline = getPipeline(mappingFile);
     // create a document object
     CoreDocument document = new CoreDocument(text);
@@ -127,7 +141,8 @@ public class NLPLanguage extends Tool {
     pipeline.annotate(document);
 
     List<CoreEntityMention> termMentions = document.entityMentions();
-    List<CoreEntityMention> permittedMentions = getPermittedMentions(termMentions, currentTerm);
+    List<CoreEntityMention> permittedMentions = getPermittedMentions(termMentions, currentTerm,
+        skipWords.toArray(new String[0]));
 
     // iterate over the permitted mentions, matching them as we go
     Iterator<CoreEntityMention> permittedMentionsIt = permittedMentions.iterator();
