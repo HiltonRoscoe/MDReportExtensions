@@ -151,7 +151,7 @@ public class NLPLanguage extends Tool {
               definitionOutputStream.write("]");
               if (mentionMatchTarget.coreMap().containsKey(NormalizedNamedEntityTagAnnotation.class)) {
                 definitionOutputStream.write("(#" + mentionMatchTarget.coreMap()
-                    .get(NormalizedNamedEntityTagAnnotation.class).toString().replaceAll("\\s+", "") + ")");
+                    .get(NormalizedNamedEntityTagAnnotation.class).toString().replaceAll("\\s+", "-") + ")");
               }
               mentionMatchTarget = permittedMentionsIt.next();
             }
