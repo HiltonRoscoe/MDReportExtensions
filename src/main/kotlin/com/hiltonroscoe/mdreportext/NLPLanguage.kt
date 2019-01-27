@@ -91,26 +91,27 @@ class NLPLanguage : Tool() {
                 // we are assuming the list is in reading order!
                 // only include terms we tagged (i.e. ignore statistical models)
                 if (termMention.entityType() === "GLOSSARY_TERM") {
-
+                    val normalizedTerm = termMention.coreMap().get<String>(NormalizedNamedEntityTagAnnotation::class.java)?.toString() ?: println("${termMention.text()} not found!")
                     val disallowSelfReference = true
                     if (disallowSelfReference) {
                         // don't link to the term we are annotating!
-                        if (currentTerm == termMention.text()) {
+                        if (currentTerm == normalizedTerm) {
                             continue
                         }
                     }
 
                     if (firstMentionsOnly) {
                         // check if we don't already have a mention.
-                        if (permittedMentions.stream().anyMatch { p -> p.text() == termMention.text() }) {
+                        // base first mentions based on underlying term, i.e. the normalized name entity
+                        // this means we won't link the term twice even if different synonyms are used
+                        if (permittedMentions.any { p -> p.coreMap().get<String>(NormalizedNamedEntityTagAnnotation::class.java).toString() == normalizedTerm }) {
                             continue
                         }
                     }
 
                     if (skipWords != null) {
                         for (skipTerm in skipWords) {
-                            if (termMention.coreMap()
-                                            .get<String>(NormalizedNamedEntityTagAnnotation::class.java).toString() == skipTerm) {
+                            if (normalizedTerm == skipTerm) {
                                 continue@outerLoop
                             }
                         }
