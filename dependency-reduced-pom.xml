@@ -5,9 +5,44 @@
   <artifactId>mdreportext</artifactId>
   <name>mdreportext</name>
   <version>1.0-SNAPSHOT</version>
-  <url>http://maven.apache.org</url>
+  <description>Report Extensions for MagicDraw VTL</description>
+  <url>https://github.com/HiltonRoscoe/MDReportExtensions</url>
   <build>
+    <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
+    <testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/main/com/hiltonroscoe/mdreportext/resources</directory>
+        <includes>
+          <include>mapping.txt</include>
+        </includes>
+      </resource>
+    </resources>
     <plugins>
+      <plugin>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-maven-plugin</artifactId>
+        <version>${kotlin.version}</version>
+        <executions>
+          <execution>
+            <id>compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>test-compile</id>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>test-compile</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <jvmTarget>1.8</jvmTarget>
+        </configuration>
+      </plugin>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.1.0</version>
@@ -20,7 +55,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>Package.MainClass</mainClass>
+                  <mainClass>com.hiltonroscoe.mdreportext.NLPLanguage</mainClass>
                 </transformer>
               </transformers>
               <minimizeJar>true</minimizeJar>
@@ -35,6 +70,8 @@
                   <artifact>edu.stanford.nlp:stanford-corenlp:models</artifact>
                   <includes>
                     <include>edu/stanford/nlp/models/pos-tagger/**</include>
+                    <include>edu/stanford/nlp/models/ner/**</include>
+                    <include>edu/stanford/nlp/models/lexparser/**</include>
                   </includes>
                 </filter>
               </filters>
@@ -42,16 +79,28 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>compile</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>testCompile</id>
+            <phase>test-compile</phase>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
   <dependencies>
-    <dependency>
-      <groupId>com.kotcrab.remark</groupId>
-      <artifactId>remark</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
-      <scope>import</scope>
-    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -59,19 +108,38 @@
       <scope>test</scope>
     </dependency>
     <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-test</artifactId>
+      <version>1.3.20</version>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>kotlin-test-common</artifactId>
+          <groupId>org.jetbrains.kotlin</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>com.nomagic</groupId>
       <artifactId>magicdraw</artifactId>
       <version>18.5</version>
       <scope>system</scope>
-      <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\magicreport.jar</systemPath>
+      <systemPath>${project.magicDrawPath}\magicreport.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>org.apache</groupId>
       <artifactId>beatools</artifactId>
       <version>1</version>
       <scope>system</scope>
-      <systemPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib\commons-beanutils-1.7.0.jar</systemPath>
+      <systemPath>${project.magicDrawPath}\commons-beanutils-1.7.0.jar</systemPath>
     </dependency>
   </dependencies>
+  <properties>
+    <project.magicDrawPath>C:\Program Files\MagicDraw\plugins\com.nomagic.magicdraw.reportwizard\lib</project.magicDrawPath>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <kotlin.version>1.3.20</kotlin.version>
+  </properties>
 </project>
 
