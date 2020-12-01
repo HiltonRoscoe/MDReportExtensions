@@ -9,26 +9,27 @@ import java.util.*
  * Used by older version of the Glossary.
  */
 class Sorter : Tool() {
-  companion object {
-    private val serialVersionUID = 1L
-    /**
-     * Sorts classes by their name, in decending order.
-     * @param collection Collection of classes
-     * @return A sorted collection of classes
-     */
-    @JvmStatic
-    fun sortByLength(collection: ArrayList<*>): ArrayList<*> {
-        Collections.sort(collection, Comparator { o1, o2 ->
-        try
-        {
-          val s1 = PropertyUtils.getProperty(o1, "name") as String
-          val s2 = PropertyUtils.getProperty(o2, "name") as String
-            return@Comparator s2.length - s1.length// comparision
+    companion object {
+        private val serialVersionUID = 1L
+
+        /**
+         * Sorts classes by their name, in decending order.
+         * @param collection Collection of classes
+         * @return A sorted collection of classes
+         */
+        @JvmStatic
+        fun sortByLength(collection: ArrayList<*>): ArrayList<*> {
+            Collections.sort(collection, Comparator { o1, o2 ->
+                try {
+                    val s1 = PropertyUtils.getProperty(o1, "name") as String
+                    val s2 = PropertyUtils.getProperty(o2, "name") as String
+                    return@Comparator s2.length - s1.length// comparision
+                } catch (e: Exception) {
+                    return@Comparator 0
+                }
+            })
+            return collection
         }
-<<<<<<< Updated upstream
-        catch (e:Exception) {
-           return@Comparator 0
-=======
 
         /** Exposes Collections.reverse method */
         @JvmStatic
@@ -67,10 +68,6 @@ class Sorter : Tool() {
                 }
             })
             return collection
->>>>>>> Stashed changes
         }
-      })
-      return collection
     }
-  }
 }

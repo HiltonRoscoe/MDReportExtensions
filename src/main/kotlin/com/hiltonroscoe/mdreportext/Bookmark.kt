@@ -17,6 +17,7 @@ class Bookmark : Tool() {
          * @param content    The content of the anchor
          * @return A Markdown fragment
          */
+        @JvmStatic
         fun open(bookmarkId: String, content: String): String {
             return "[$content]($bookmarkId)"
         }
@@ -28,6 +29,7 @@ class Bookmark : Tool() {
          * @param bookmarkObject The name of the bookmark
          * @return
          */
+        @JvmStatic
         fun create(bookmarkId: String, bookmarkObject: String): String {
             return "<a name=\"$bookmarkId\"></a>$bookmarkObject"
         }
