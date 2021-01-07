@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff245252-2243-483f-9d1e-9963653c1a6d" name="Default Changelist" comment="Support Start/End and Type/OtherType pairs">
-      <change afterPath="$PROJECT_DIR$/.idea/MDReportExtensions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/Bookmark.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/Bookmark.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/Sorter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/Sorter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/NLPLanguage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/NLPLanguage.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/hiltonroscoe/mdreportext/mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hiltonroscoe/mdreportext/mapping.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1jv0nS5S3wF29WtcTqJsmMAlrny" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,9 +34,10 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
-  <component name="RunManager" selected="Kotlin.com.hiltonroscoe.mdreportext.Test">
+  <component name="RunManager" selected="Application.com.hiltonroscoe.mdreportext.Test">
     <configuration name="com.hiltonroscoe.mdreportext.Test" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="mdreportext" />
       <option name="VM_PARAMETERS" />
@@ -84,7 +78,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.hiltonroscoe.mdreportext.Test" />
         <item itemvalue="Maven.mdreportext [package]" />
       </list>
     </recent_temporary>
@@ -112,11 +105,9 @@
     <MESSAGE value="Support Start/End and Type/OtherType pairs" />
     <option name="LAST_COMMIT_MESSAGE" value="Support Start/End and Type/OtherType pairs" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="408" y="164" key="#Notifications" timestamp="1604669817935">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="408" y="164" key="#Notifications/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1604669817935" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="masterDetails">
     <states>
