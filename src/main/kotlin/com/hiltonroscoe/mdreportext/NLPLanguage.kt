@@ -156,27 +156,40 @@ class NLPLanguage : Tool() {
                 StringReader(document.text()).use { definitionInputStream ->
                     var currentChar: Int
                     var pos = 0
+                    var inLink = false;
                     while (true) {
                         currentChar = definitionInputStream.read()
                         if(currentChar == -1)
                           break
-                        if (mentionMatchTarget != null) {
-                            try {
-                                if (pos == mentionMatchTarget!!.charOffsets().first()) {
-                                    // write bracket
-                                    definitionOutputStream.write("[")
-                                } else if (pos == mentionMatchTarget!!.charOffsets().second()) {
-                                    // write bracket
-                                    definitionOutputStream.write("]")
-                                    if (mentionMatchTarget!!.coreMap().containsKey<String>(NormalizedNamedEntityTagAnnotation::class.java)) {
-                                        definitionOutputStream.write("(#" + mentionMatchTarget!!.coreMap()
-                                                .get<String>(NormalizedNamedEntityTagAnnotation::class.java).toString().replace("\\s+".toRegex(), "-") + ")")
+                        if(currentChar == '['.toInt())
+                            inLink = true
+                        else if (currentChar == ']'.toInt())
+                            inLink = false
+                        // don't allow nested hyperlinks in Markdown
+                        if (!inLink) {
+                            if (mentionMatchTarget != null) {
+                                try {
+                                    if (pos == mentionMatchTarget!!.charOffsets().first()) {
+                                        // write bracket
+                                        definitionOutputStream.write("[")
+                                    } else if (pos == mentionMatchTarget!!.charOffsets().second()) {
+                                        // write bracket
+                                        definitionOutputStream.write("]")
+                                        if (mentionMatchTarget!!.coreMap()
+                                                .containsKey<String>(NormalizedNamedEntityTagAnnotation::class.java)
+                                        ) {
+                                            definitionOutputStream.write(
+                                                "(#" + mentionMatchTarget!!.coreMap()
+                                                    .get<String>(NormalizedNamedEntityTagAnnotation::class.java)
+                                                    .toString()
+                                                    .replace("\\s+".toRegex(), "-") + ")"
+                                            )
+                                        }
+                                        mentionMatchTarget = permittedMentionsIt.next()
                                     }
-                                    mentionMatchTarget = permittedMentionsIt.next()
+                                } catch (e: NoSuchElementException) {
                                 }
-                            } catch (e: NoSuchElementException) {
                             }
-
                         }
                         definitionOutputStream.write(currentChar)
                         pos++
