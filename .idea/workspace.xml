@@ -8,11 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff245252-2243-483f-9d1e-9963653c1a6d" name="Default Changelist" comment="Support Start/End and Type/OtherType pairs">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/NLPLanguage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/NLPLanguage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/HTMLHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/hiltonroscoe/mdreportext/HTMLHelper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/hiltonroscoe/mdreportext/mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hiltonroscoe/mdreportext/mapping.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

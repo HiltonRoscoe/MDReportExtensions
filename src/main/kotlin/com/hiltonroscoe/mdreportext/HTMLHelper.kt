@@ -37,6 +37,7 @@ class HTMLHelper : Tool() {
          * @param htmlString An HTML fragment
          * @return A GFM-style Markdown fragment
          */
+        @JvmStatic
         fun mdhtmlToMarkdown(htmlString: String): String {
             try {
                 val options = Options.github()
