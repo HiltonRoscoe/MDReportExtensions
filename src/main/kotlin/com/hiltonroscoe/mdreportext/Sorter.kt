@@ -50,9 +50,9 @@ class Sorter : Tool() {
                         if (sInput.startsWith("Other"))
                             sInput.substringAfter("Other").toLowerCase() + " "
                         else if (Regex("^End[A-Z]*").containsMatchIn(sInput))
-                            sInput.substringAfter("End").toLowerCase() + " "
+                            "start" + sInput.substringAfter("End").toLowerCase() + " "
                         else if (Regex("^Start[A-Z]*").containsMatchIn(sInput))
-                            sInput.substringAfter("Start").toLowerCase()
+                            sInput.toLowerCase()
                         else if (sInput.endsWith("End"))
                             sInput.substringBefore("End").toLowerCase() + "start "
                         else
